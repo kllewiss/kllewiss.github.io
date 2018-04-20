@@ -181,10 +181,14 @@
                 -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
             }
+
+            .portfolio {
+                padding-bottom: 50px;
+            }
+
             .portfolio-content {
                 padding-top: 100px;
                 margin: 50px;
-
             }
 
             .portfolio .main-container,
@@ -198,6 +202,11 @@
                 transform: skewY(-6deg);
                 font-size: 6em;
                 text-align: right;
+            }
+
+            footer h1 {
+                color: #eee;
+                font-size: 6em;
             }
 
             .portfolio h5 {
@@ -219,10 +228,21 @@
             .text-section {
                 max-width: 60%;
             }
+
             .footer {
                 background: #2e2e2e;
                 color: #eee;
+                padding: 10px;
+                position: relative;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+            }
 
+            .footer h3 {
+                padding: 20px;
+                color: #eee;
             }
         </style>
 
@@ -319,9 +339,18 @@
         </div>
     </div>
 
-    <div class="footer">
+<div class="footer">
+    <div class="row">
+        <div class="col-lg-6 d-flex justify-content-around">
+            <h3>Testimonials</h3>
 
+        </div>
+        <div class="col-lg-6 d-flex justify-content-around">
+            <h1><a name="contact">Contact</a></h1>
+
+        </div>
     </div>
+</div>
 
 
 </html>
