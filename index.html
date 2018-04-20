@@ -10,9 +10,20 @@
 
 
         <!--Links to Bootstrap Framework-->
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Tag for mobile optimization-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+       <!-- jQuery library -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
         <style>
             header {
@@ -41,11 +52,26 @@
             nav {
                 margin: 50px;
             }
-            nav p{
+            nav a{
                 padding: 20px;
-                color: #000;
+                color: #2e2e2e;
+                position: relative;
                 font-family: 'Arimo', Helvetica, sans-serif;
-                }
+            }
+
+            nav a:hover {
+                color: #222;
+                text-decoration: none;
+            }
+
+            a {
+                color: #eee;
+            }
+
+            a:hover {
+                color: #eee;
+                text-decoration: none;
+            }
             
             /* Come back to this later!
             hr {
@@ -68,6 +94,9 @@
                 float: right;
                 transform: rotate(20deg);
                 margin-top: -400px;
+                position: static;
+                max-width: 400px;
+                max-height: 200px;
             }
 
             .container {
@@ -120,17 +149,60 @@
                 -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
             }
+
+            .about-ender {
+                background: #eee;
+                position: relative;
+                color: #2e2e2e;
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                margin-top: 100px;
+            }
+            .about-ender:before {
+                font-family: 'Allura', serif;
+                font-size: 100px;
+                z-index: -4;
+                content: 'Work';
+                position: absolute;
+                left: 0;
+                top: -200px;
+                width: 100%;
+                margin: 0 auto;
+                height: 300px;
+                background: #2e2e2e;
+                display: flex;
+                flex-wrap: wrap;
+                -webkit-transform: skewY(-6deg);
+                -moz-transform: skewY(-6deg);
+                -ms-transform: skewY(-6deg);
+                -o-transform: skewY(-6deg);
+                transform: skewY(-6deg);
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+
+            .portfolio h1 {
+                margin: 100px;      
+                -webkit-transform: skewY(-6deg);
+                -moz-transform: skewY(-6deg);
+                -ms-transform: skewY(-6deg);
+                -o-transform: skewY(-6deg);
+                transform: skewY(-6deg);
+                font-size: 6em;
+                text-align: right;
+            }
         </style>
 
     </head>
     <header class="row">
         <div class="container">
                   <nav class="text-left">
-                    <p>about</p>
+                    <p><a href="#about">about</a></p>
                     <hr>
-                    <p>work</p>
+                    <p><a href="#work">work</a></p>
                     <hr>
-                    <p>contact</p>
+                    <p><a href="#contact">contact</a></p>
                     <hr>
                 </nav>
         </div>
@@ -146,15 +218,17 @@
     </section>
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="main-container">
             <section id="about-section">
-                <h3 style="color: #eeeeee;">Hello, my name is Placeholder.<br>
+                <h3 style="color: #eeeeee;"><a name="about">Hello</a>, my name is Placeholder.<br>
                     I've been living on the internet since 1994. 
                 </h3>
-                <div class="about-image">
-                    <img src="https://images.vexels.com/media/users/3/135805/isolated/preview/d320d75b351e44bc7eafd4ea1741c972-bright-offset-device-computer-icon-by-vexels.png">
-                </div>
+                <!-- Leave this out until you can find how to correct the optimization
+                    
+                <div class="col-sm-4 about-image">
+                    <img class="img-fluid" src="https://images.vexels.com/media/users/3/135805/isolated/preview/d320d75b351e44bc7eafd4ea1741c972-bright-offset-device-computer-icon-by-vexels.png" style="width:4 00px;height:400px;">
+                </div> !-->
                 <p>
                     This is me doing a thing! I'm doing a thing. Things are wonderful.
                 </p>
@@ -164,6 +238,18 @@
                 <span>...</span><br>
             </section>
         </div>
-
     </div>
+
+    <div class="container-fluid">
+        <div class="about-ender">
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="portfolio">
+                <h1>Work</h1>
+        </div>
+    </div>
+
+
 </html>
