@@ -131,7 +131,7 @@
                 font-family: 'Allura', serif;
                 font-size: 100px;
                 z-index: -4;
-                content: 'About';
+                content: ' ';
                 position: absolute;
                 left: 0;
                 top: -200px;
@@ -182,8 +182,10 @@
                 backface-visibility: hidden;
             }
 
-            .portfolio h1 {
-                margin: 100px;      
+            .portfolio .main-container,
+            h1 {
+                color: #eee;
+                z-index: 1;
                 -webkit-transform: skewY(-6deg);
                 -moz-transform: skewY(-6deg);
                 -ms-transform: skewY(-6deg);
@@ -226,6 +228,7 @@
 
     <div class="container-fluid">
         <div class="main-container">
+            <h1 style="margin-top: -150px;">About</h1>
             <section id="about-section">
                 <h3 style="color: #eeeeee;"><a name="about">Hello</a>, my name is Placeholder.<br>
                     I've been living on the internet since 1994. 
@@ -243,9 +246,21 @@
                Lorem ipsum dolor sit amet, ex pri ludus probatus. Corpora commune gloriatur in sea. At labore impetus epicurei eos, te est facilisis rationibus, alii regione diceret an pri. Ex est alii nullam. Error eruditi patrioque vix at, soleat iuvaret comprehensam ut vim.
                </p>
                <p>
-                    Sed tibique platonem volutpat ad, et nec propriae principes democritum. No mutat facer voluptatum sea, decore laoreet an his, inimicus incorrupte usu at. Id has legimus invenire, suas epicuri has eu. Animal consequuntur et vim, semper adipisci disputationi ex his, an nec cibo similique. Fugit invenire duo ne. Sed ut facete scripserit.</p>
-               </div>
+                    Sed tibique platonem volutpat ad, et nec propriae principes democritum. No mutat facer voluptatum sea, decore laoreet an his, inimicus incorrupte usu at. Id has legimus invenire, suas epicuri has eu. Animal consequuntur et vim, semper adipisci disputationi ex his, an nec cibo similique. Fugit invenire duo ne. Sed ut facete scripserit.
+                </p>
+
                <h3 style="color: #eeeeee;">Things I know:</h3>
+               <div class="col-sm-3">
+                   <h5>HTML</h5>
+               </div>
+               <div class="col-sm-3">
+                   <h5>CSS</h5>
+               </div>
+               <div class="col-sm-3">
+                   <h5>JAVASCRIPT</h5>
+               </div>
+
+               </div>
             </section>
         </div>
     </div>
@@ -257,7 +272,7 @@
 
     <div class="container-fluid">
         <div class="portfolio">
-                <h1><a name="work">Work</a></h1>
+                <h1 style="padding:20px;"><a name="work">Work</a></h1>
 
         </div>
     </div>
