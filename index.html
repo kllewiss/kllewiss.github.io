@@ -181,6 +181,10 @@
                 -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
             }
+            .portfolio-content {
+                padding: 100px;
+                justify-content: center;
+            }
 
             .portfolio .main-container,
             h1 {
@@ -193,6 +197,22 @@
                 transform: skewY(-6deg);
                 font-size: 6em;
                 text-align: right;
+            }
+
+            .portfolio h5 {
+                font-family: 'Raleway', serif;
+                font-weight: 600;
+                font-size: 1.5em;
+                padding: 10px;
+            }
+
+            .portfolio p {
+                font-size: 1em;
+            }
+
+            .portfolio img {
+                outline: solid #eee 8px;
+                outline-offset: -15px;
             }
             
             .text-section {
@@ -272,8 +292,29 @@
 
     <div class="container-fluid">
         <div class="portfolio">
-                <h1 style="padding:20px;"><a name="work">Work</a></h1>
-
+            <h1 style="padding:20px;"><a name="work">Work</a></h1>
+            <div class="portfolio-content">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="300px" height="200px">
+                        <h5>Website One</h5>
+                        <hr>
+                        <p>This is about website one.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="300px" height="200px">
+                        <h5>Website Two</h5>
+                        <hr>
+                        <p>This is about website two.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="300px" height="200px">
+                        <h5>Website Three</h5>
+                        <hr>
+                        <p>This is about website three.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
