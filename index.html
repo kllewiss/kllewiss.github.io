@@ -286,7 +286,45 @@
                 padding: 20px;
                 color: #eee;
             }
-        </style>
+
+            /*Experimental CSS */
+            .vert .carousel-item-next.carousel-item-left,
+            .vert .carousel-item-prev.carousel-item-right {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            .vert .carousel-item-next,
+            .vert .active.carousel-item-right {
+                -webkit-transform: translate3d(0, 100%, 0);
+                transform: translate3d(0, 100% 0);
+                transition-timing-function: ease-in-out;
+                transition-duration: 3s;
+            }
+
+            .vert .carousel-item-prev,
+            .vert .active.carousel-item-left {
+                -webkit-transform: translate3d(0,-100%, 0);
+                transform: translate3d(0,-100%, 0);
+                transition-timing-function: ease-in-out;
+                transition-duration: 3s;
+            }
+
+            .carousel-item {
+                padding-left: 100px;
+                align-content: center;
+            }
+            /*End of experimental CSS*/
+
+            q {
+                font-style: italic;
+            }
+
+            .author {
+                padding-left: 50px;
+                padding-top: 10px;
+            }
+</style>
 
     </head>
     <header class="row">
@@ -412,18 +450,45 @@
     <div class="row align-content-center">
         <div class="col-lg-8 d-flex justify-content-around">
             <h3>Testimonials</h3>
+            </div>
+
+            <div class="col-lg-4 d-flex flex-lg-column">
+            <h1 style="text-align: left;"><a name="contact">Contact</a></h1>
+        </div>
         </div>
 
-        <div class="col-lg-4 d-flex flex-lg-column justify-content-center">
-            <h1 style="text-align: center;"><a name="contact">Contact</a></h1>
-
+                    <!--Experimental Code-->
+                    <div class="row container">
+                            <div id="carouselExampleControls" class="carousel vert slide col-lg-8" data-ride="carousel" data-interval="5000">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <q>"Wow, what a thing. Things are great.</q>
+                                        <p class="author">-Very Important Company</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <q>"The things just blow my mind. Incredible...."</q>
+                                        <p class="author">-Very Important Person</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <q>"You won't find better things anywhere else. Guaranteed."</q>
+                                        <p class="author">Very Important AI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--End of experimental code-->
+        
+            <div class="col-lg-4 align-content-center">
              <p style="text-align: center;">placeholder@website.com<br>
             Phone<br>
              <number:>555-5555</number:><br>
             Address: <br>
             yadda yadda</p>
         </div>
-
     </div>
 </div>
 </div>
