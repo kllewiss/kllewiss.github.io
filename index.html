@@ -249,6 +249,15 @@
                 padding-bottom: 20px;
             }
 
+            .enlarge {
+                transition: transform .3s; 
+                margin: 0 auto;
+            }
+
+            .enlarge:hover {
+                transform: scale(1.05); 
+            }
+
             .section-header {
                 padding: 30px;
                 position: static;
@@ -343,22 +352,23 @@
     <div class="container-fluid parallax">
         <div class="portfolio">
             <h1 class="section-header" style="padding:20px;"><a name="work">Work</a></h1>
+            <!--Beginning of Web Development Portfolio-->
             <div class="row portfolio-content d-flex justify-content-around">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 enlarge">
                         <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
                         <div class="portfolio-item shadow-sm">
                             <h5>Website One</h5>
                             <p>This is about website one.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 enlarge">
                         <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
                         <div class="portfolio-item shadow-sm">
                             <h5>Website Two</h5>
                             <p>This is about website two.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 enlarge">
                         <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
                         <div class="portfolio-item shadow-sm">
                             <h5>Website Three</h5>
@@ -366,17 +376,41 @@
                         </div>
                 </div>
             </div>
+            <!--Beginning of UI Design Portfolio -->
+            <div class="row portfolio-content d-flex justify-content-around">
+                <div class="col-lg-4 enlarge">
+                    <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                    <div class="portfolio-item shadow-sm">
+                        <h5>Website One</h5>
+                        <p>This is about website one.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 enlarge">
+                    <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                    <div class="portfolio-item shadow-sm">
+                        <h5>Website Two</h5>
+                        <p>This is about website two.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 enlarge">
+                    <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                    <div class="portfolio-item shadow-sm">
+                        <h5>Website Three</h5>
+                        <p>This is about website three.</p>
+                    </div>
+            </div>
+        </div>
         </div>
     </div>
 
 <div class="footer">
     <div class="container-fluid">
     <div class="row align-content-center">
-        <div class="col-lg-6 d-flex justify-content-around">
+        <div class="col-lg-8 d-flex justify-content-around">
             <h3>Testimonials</h3>
         </div>
 
-        <div class="col-lg-6 d-flex flex-lg-column justify-content-center">
+        <div class="col-lg-4 d-flex flex-lg-column justify-content-center">
             <h1 style="text-align: center;"><a name="contact">Contact</a></h1>
 
              <p style="text-align: center;">placeholder@website.com<br>
