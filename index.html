@@ -246,7 +246,7 @@
             }
 
             .portfolio img {
-                outline: solid #eee 8px;
+                outline: solid #eee 2px;
                 outline-offset: -15px;
             }
             
@@ -292,44 +292,6 @@
                 padding: 20px;
                 color: #eee;
             }
-
-            /*Experimental CSS */
-            .vert .carousel-item-next.carousel-item-left,
-            .vert .carousel-item-prev.carousel-item-right {
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-
-            .vert .carousel-item-next,
-            .vert .active.carousel-item-right {
-                -webkit-transform: translate3d(0, 100%, 0);
-                transform: translate3d(0, 100% 0);
-                transition-timing-function: ease-in-out;
-                transition-duration: 3s;
-            }
-
-            .vert .carousel-item-prev,
-            .vert .active.carousel-item-left {
-                -webkit-transform: translate3d(0,-100%, 0);
-                transform: translate3d(0,-100%, 0);
-                transition-timing-function: ease-in-out;
-                transition-duration: 3s;
-            }
-
-            .carousel-item {
-                padding-left: 100px;
-                align-content: center;
-            }
-            /*End of experimental CSS*/
-
-            q {
-                font-style: italic;
-            }
-
-            .author {
-                padding-left: 50px;
-                padding-top: 10px;
-            }
 </style>
 
     </head>
@@ -357,8 +319,6 @@
         <div class="main-container">
             <h1 class="section-header" style="margin-top: -150px;"><a name="about">About</a></h1>
             <section id="about-section">
-                <div class="row">
-                <div class="col-lg-8">
                 <h3 style="color: #eeeeee;"><strong>Hello</strong>, my name is Placeholder.<br>
                     I've been living on the internet since 1994. 
                 </h3>
@@ -388,13 +348,7 @@
                <div class="col-sm-3">
                    <h5>JAVASCRIPT</h5>
                 </div>
-                </div>
-               </div>
-               <div class="col-lg-4">
-                   <img class="about-image" src="about-me.png" alt="Hello It Me">
-               </div>
             </div>
-               </div>
             </section>
         </div>
     </div>
@@ -460,42 +414,9 @@
 
 <div class="footer">
     <div class="container-fluid">
-    <div class="row align-content-center">
-        <div class="col-lg-8 d-flex justify-content-around">
-            <h3>Testimonials</h3>
-            </div>
-
-            <div class="col-lg-4 d-flex flex-lg-column">
+    <div class="row justify-content-center">
+            <div class="d-flex flex-lg-column">
             <h1 style="text-align: left;"><a name="contact">Contact</a></h1>
-        </div>
-        </div>
-
-                    <!--Experimental Code-->
-                    <div class="row container">
-                            <div id="carouselExampleControls" class="carousel vert slide col-lg-8" data-ride="carousel" data-interval="5000">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <q>Wow, what a thing. Things are great.</q>
-                                        <p class="author">-Very Important Company</p>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <q>The things just blow my mind. Incredible....</q>
-                                        <p class="author">-Very Important Person</p>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <q>You won't find better things anywhere else. Guaranteed.</q>
-                                        <p class="author">-Very Important AI</p>
-                                    </div>
-                                </div>
-                            </div>
-                        <!--End of experimental code-->
-        
-            <div class="col-lg-4 align-content-center">
              <p style="text-align: center;">placeholder@website.com<br>
             Phone<br>
              <number:>555-5555</number:><br>
