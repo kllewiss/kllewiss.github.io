@@ -7,7 +7,6 @@
 
         <!--Link to fonts: Allura, Arimo, Raleway-->
         <link href="https://fonts.googleapis.com/css?family=Allura|Arimo|Raleway:300,600" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
 
 
         <!--Links to Bootstrap Framework-->
@@ -99,11 +98,11 @@
 
             .about-image {
                 float: right;
-                transform: rotate(20deg);
-                margin-top: -400px;
+                transform: rotate(10deg);
+                margin-top: -200px;
                 position: static;
-                max-width: 400px;
-                max-height: 200px;
+                max-width: 500px;
+                max-height: 500px;
             }
 
             .container {
@@ -120,17 +119,6 @@
                 background-position: cover;
                 background-color: #eeeeee;
             }
-
-         .parallax { 
-             /* The image used */
-            background-image: url("https://www.transparenttextures.com/patterns/arches.png");
-            /* Set a specific height */
-            height: 100%; 
-             /* Create the parallax scrolling effect */
-             background-attachment: fixed;
-             background-position: center;
-            background-repeat: repeat;
-}
 
             .logoName {
                 padding: 50px 30px;
@@ -204,9 +192,27 @@
                 backface-visibility: hidden;
             }
 
+            .parallax { 
+             /* The image used */
+                background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+            /* Set a specific height */
+                height: 100%; 
+             /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: repeat;
+            }
+
             .portfolio {
                 padding-bottom: 50px;
                 justify-content: center;
+            }
+
+            .portfolio-image {
+                size: contain;
+                position: center;
+                height: 65%;
+                width: 100%;
             }
 
             .portfolio-content {
@@ -351,6 +357,8 @@
         <div class="main-container">
             <h1 class="section-header" style="margin-top: -150px;"><a name="about">About</a></h1>
             <section id="about-section">
+                <div class="row">
+                <div class="col-lg-8">
                 <h3 style="color: #eeeeee;"><strong>Hello</strong>, my name is Placeholder.<br>
                     I've been living on the internet since 1994. 
                 </h3>
@@ -379,8 +387,13 @@
                </div>
                <div class="col-sm-3">
                    <h5>JAVASCRIPT</h5>
+                </div>
+                </div>
                </div>
-
+               <div class="col-lg-4">
+                   <img class="about-image" src="about-me.png" alt="Hello It Me">
+               </div>
+            </div>
                </div>
             </section>
         </div>
@@ -397,21 +410,21 @@
             <!--Beginning of Web Development Portfolio-->
             <div class="row portfolio-content d-flex justify-content-around">
                     <div class="col-lg-4 enlarge">
-                        <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                        <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
                         <div class="portfolio-item shadow-sm">
                             <h5>Website One</h5>
                             <p>This is about website one.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 enlarge">
-                        <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                        <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" >
                         <div class="portfolio-item shadow-sm">
                             <h5>Website Two</h5>
                             <p>This is about website two.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 enlarge">
-                        <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                        <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
                         <div class="portfolio-item shadow-sm">
                             <h5>Website Three</h5>
                             <p>This is about website three.</p>
@@ -421,21 +434,21 @@
             <!--Beginning of UI Design Portfolio -->
             <div class="row portfolio-content d-flex justify-content-around">
                 <div class="col-lg-4 enlarge">
-                    <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                    <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
                     <div class="portfolio-item shadow-sm">
                         <h5>Website One</h5>
                         <p>This is about website one.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 enlarge">
-                    <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                    <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
                     <div class="portfolio-item shadow-sm">
                         <h5>Website Two</h5>
                         <p>This is about website two.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 enlarge">
-                    <img class="img-responsive" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
+                    <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
                     <div class="portfolio-item shadow-sm">
                         <h5>Website Three</h5>
                         <p>This is about website three.</p>
