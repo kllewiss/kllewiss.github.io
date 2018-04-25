@@ -248,8 +248,18 @@
             .portfolio img {
                 outline: solid #eee 2px;
                 outline-offset: -15px;
+                filter: saturate(0%);
             }
             
+            .portfolio img:hover{
+                filter: saturate(100%);
+            }
+            
+            .portfolio-header {
+                padding-top: 100px;
+                margin-bottom: -50px;
+            }
+
             .portfolio-item {
                 background-color: #eee;
                 padding-left: 0px;
@@ -362,30 +372,35 @@
         <div class="portfolio">
             <h1 class="section-header" style="padding:20px;"><a name="work">Work</a></h1>
             <!--Beginning of Web Development Portfolio-->
+            <!--Add cute tech embellishments around this header-->
+            <div class="row portfolio-header justify-content-center"><h2>Development Projects</h2></div>
             <div class="row portfolio-content d-flex justify-content-around">
                     <div class="col-lg-4 enlarge">
-                        <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                        <img class="portfolio-image" src="/Users/admin/Documents/GitHub/kllewiss.github.io/vine-screenshot.png">
                         <div class="portfolio-item shadow-sm">
-                            <h5>Website One</h5>
-                            <p>This is about website one.</p>
+                            <h5>Vine Sourdough Bakery</h5>
+                            <p>A Wordpress.com website for a cafe/bakery.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 enlarge">
-                        <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" >
+                        <img class="portfolio-image" src="/Users/admin/Documents/GitHub/kllewiss.github.io/wiv-screenshot.png">
                         <div class="portfolio-item shadow-sm">
-                            <h5>Website Two</h5>
-                            <p>This is about website two.</p>
+                            <h5>Wide Island View</h5>
+                            <p>A Wordpress.org website for a webzine.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 enlarge">
-                        <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                        <img class="portfolio-image" src="/Users/admin/Documents/GitHub/kllewiss.github.io/is-template.png">
                         <div class="portfolio-item shadow-sm">
-                            <h5>Website Three</h5>
-                            <p>This is about website three.</p>
+                            <h5>International Company Template</h5>
+                            <p>A self-coded project.</p>
                         </div>
                 </div>
             </div>
             <!--Beginning of UI Design Portfolio -->
+            <!--Add artistic embellishments around this header-->
+            <div class="row portfolio-header justify-content-center"><h2>Design Projects</h2></div>
+
             <div class="row portfolio-content d-flex justify-content-around">
                 <div class="col-lg-4 enlarge">
                     <img class="portfolio-image" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="365px" height="225px">
