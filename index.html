@@ -91,6 +91,9 @@
             }
             */
 
+            .btn  {
+                opacity: .5;
+            }
             #about-section {
                 margin: 20px;
                 width: 100%;
@@ -246,8 +249,6 @@
             }
 
             .portfolio img {
-                outline: solid #eee 2px;
-                outline-offset: -15px;
                 filter: saturate(0%);
             }
             
@@ -348,6 +349,33 @@
                     Sed tibique platonem volutpat ad, et nec propriae principes democritum. No mutat facer voluptatum sea, decore laoreet an his, inimicus incorrupte usu at. Id has legimus invenire, suas epicuri has eu. Animal consequuntur et vim, semper adipisci disputationi ex his, an nec cibo similique. Fugit invenire duo ne. Sed ut facete scripserit.
                 </p>
 
+                <!-- Button trigger modal 
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vineModal">
+                Launch demo modal
+                </button>  -->
+  
+            <!-- Modal a-->
+            <div class="modal fade" id="vineModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Vine Sourdough Bakery</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                     <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                     <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!--End of Trial-->
+
                <h3 style="color: #eeeeee;">Things I know:</h3>
                <div class="col-sm-3">
                    <h5>HTML</h5>
@@ -376,7 +404,7 @@
             <div class="row portfolio-header justify-content-center"><h2>Development Projects</h2></div>
             <div class="row portfolio-content d-flex justify-content-around">
                     <div class="col-lg-4 enlarge">
-                        <img class="portfolio-image" src="https://i.imgur.com/QhcDyi0.png">
+                        <img class="portfolio-image btn-primary" data-toggle="modal" data-target="#vineModal" src="https://i.imgur.com/QhcDyi0.png">
                         <div class="portfolio-item shadow-sm">
                             <h5>Vine Sourdough Bakery</h5>
                             <p>A Wordpress.com website for a cafe/bakery.</p>
