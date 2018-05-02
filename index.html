@@ -253,7 +253,7 @@
             }
             
             .portfolio img:hover{
-                filter: saturate(100%);
+                filter: saturate(100%); 
             }
             
             .portfolio-header {
@@ -354,7 +354,7 @@
                 Launch demo modal
                 </button>  -->
   
-            <!-- Modal a-->
+            <!-- Modals -->
             <div class="modal fade" id="vineModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                  <div class="modal-dialog modal-lg" role="document">
                      <div class="modal-content">
@@ -364,16 +364,50 @@
                                      <span aria-hidden="true">&times;</span>
                                 </button>
                         </div>
-                     <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="modal-body">
+                            <p style="color: #2e2e2e">This website was created within the Wordpress.com platform. Most original work went into designing webpage layout and managing graphics as well as social media content.</p>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="modal fade" id="wivModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                               <h3 class="modal-title">Wide Island View</h3>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                   </button>
+                           </div>
+                           <div class="modal-body">
+                               <p style="color: #2e2e2e">This website was created within the Wordpress.org platform. Most original work went into designing webpage layout and managing graphics as well as social media content.</p>
+                           </div>
+                           <div class="modal-footer">
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="modal fade" id="isModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                               <h3 class="modal-title">International Support Template</h3>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                   </button>
+                           </div>
+                           <div class="modal-body">
+                               <p style="color: #2e2e2e">This website was coded entirely on my own without any CSS frameworks. This was an ongoing project that I coded during my progression of learning front-end development.</p>
+                           </div>
+                           <div class="modal-footer">
+                           </div>
+                       </div>
+                   </div>
+               </div>
                 <!--End of Trial-->
 
                <h3 style="color: #eeeeee;">Things I know:</h3>
@@ -411,14 +445,14 @@
                         </div>
                     </div>
                     <div class="col-lg-4 enlarge">
-                        <img class="portfolio-image" src="https://i.imgur.com/xu2SmyH.png">
+                        <img class="portfolio-image" data-toggle="modal" data-target="#wivModal" src="https://i.imgur.com/xu2SmyH.png">
                         <div class="portfolio-item shadow-sm">
                             <h5>Wide Island View</h5>
                             <p>A Wordpress.org website for a webzine.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 enlarge">
-                        <img class="portfolio-image" src="https://i.imgur.com/Yho74tN.png">
+                        <img class="portfolio-image" data-toggle="modal" data-target="#isModal" src="https://i.imgur.com/Yho74tN.png">
                         <div class="portfolio-item shadow-sm">
                             <h5>International Company Template</h5>
                             <p>A self-coded project.</p>
