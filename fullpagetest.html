@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/Users/admin/Documents/GitHub/kllewiss.github.io/fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="/Users/admin/Documents/GitHub/kllewiss.github.io/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Users/admin/Documents/GitHub/kllewiss.github.io/fullPage.js"></script>
+    <!--Link to fonts: Allura, Arimo, Raleway-->
+    <link href="https://fonts.googleapis.com/css?family=Allura|Arimo|Raleway:300,600" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                //Navigation
+                menu: '#menu',
+                lockAnchors: true,
+                anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+                navigation: true,
+                navigationPosition: 'left',
+                navigationTooltips: ['Welcome', 'Work','About','Contact'],
+                showActiveTooltip: true,
+                slidesNavigation: true,
+                slidesNavPosition: 'top',
+
+                //Scrolling
+                css3: true,
+                scrollingSpeed: 700,
+                autoScrolling: true,
+                fitToSection: true,
+                fitToSectionDelay: 1000,
+                scrollBar: false,
+                easing: 'easeInOutCubic',
+                easingcss3: 'ease',
+                loopBottom: false,
+                loopTop: false,
+                loopHorizontal: true,
+                continuousVertical: false,
+                continuousHorizontal: false,
+                scrollHorizontally: false,
+                interlockedSlides: false,
+                dragAndMove: false,
+                offsetSections: false,
+                resetSliders: false,
+                fadingEffect: false,
+                normalScrollElements: '#element1, .element2',
+                scrollOverflow: false,
+                scrollOverflowReset: false,
+                scrollOverflowOptions: null,
+                touchSensitivity: 15,
+                normalScrollElementTouchThreshold: 5,
+                bigSectionsDestination: null,
+
+                //Accessibility
+                keyboardScrolling: true,
+                animateAnchor: true,
+                recordHistory: true,
+
+                //Design
+                controlArrows: false,
+                verticalCentered: true,
+                sectionsColor: ['#ccc', '#fff'],
+                paddingTop: '3em',
+                paddingBottom: '10px',
+                fixedElements: '#header, .footer',
+                responsiveWidth: 0,
+                responsiveHeight: 0,
+                responsiveSlides: true,
+                parallax: false,
+                parallaxOptions: {
+                    type: 'reveal',
+                    percentage: 62,
+                    property: 'translate'
+                },
+
+                //Custom selectors
+                sectionSelector: '.section',
+                slideSelector: '.slide',
+
+                lazyLoading: true,
+
+                //events
+                onLeave: function (index, nextIndex, direction) {},
+                afterLoad: function (anchorLink, index) {},
+                afterRender: function () {},
+                afterResize: function () {},
+                afterResponsive: function (isResponsive) {},
+                afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {},
+                onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {}
+            });
+        });
+    </script>
+</head>
+
+<div id="fullpage">
+    <div class="fullpage-wrapper section">
+        <div class="container-fluid">
+            <div class="text-right logoName">
+                <h1>kristen
+                    <br>lewis</h1>
+                    <h3>Web Designer / Developer</h3><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="fullpage-wrapper section">
+        <div class="container-fluid fp-slides">
+            <div class="portfolio">
+                <div class="portfolio-header justify-content-center">
+                    <h2>Ongoing Projects</h2>
+                        <div class="slide" id="slide1">
+                            <div class="col-lg-4 enlarge">
+                                <div class="portfolio-item shadow-sm">
+                                    <h5>My Portfolio Website</h5>
+                                    <p>My portfolio website to showcase designs..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="slide2">
+                        <div class="col-lg-4 enlarge">
+                            <div class="portfolio-item shadow-sm">
+                                <h5>Wide Island View</h5>
+                                <p>A Wordpress.org website for a webzine.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="slide3">
+                        <div class="col-lg-4 enlarge">
+                            <div class="portfolio-item shadow-sm">
+                                <h5>International Company Template</h5>
+                                <p>A self-coded project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fullpage-wrapper section" id="aboutSection">
+        <div class="main-container">
+            <h1 class="section-header">About</h1>
+                <h3 style="color: #eeeeee;" class="text-right">
+                    <strong>
+                        <img class="emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/129/waving-hand-sign_1f44b.png" alt="waving hand"> Hello</strong>, my name is Kristen
+                    <br> I've been living on the internet since 1994
+                    <img class="emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/lg/57/old-personal-computer_1f5b3.png" alt="old personal computer">
+                </h3>
+                <div class="text-right">
+                    <p>
+                        I'm an aspiring website designer/developer based in Japan.
+                    </p>
+                    <p>
+                        I graduated from the University of Florida in 2017 with a degree in Linguistics and shortly after moved to Hiroshima prefecture,
+                        Japan. Here, I've been spending my days teaching English to Japanese teenagers and then burying my
+                        nose in various coding projects to sharpen my front-end developing and designing skills.
+                    </p>
+                    <br>
+                    <!--
+                    <h3 style="color: #eeeeee;">Things I know:</h3>
+                    <div class="container row justify-content-center">
+                        <div class="col-sm-3">
+                            <img style="width:100%" src="http://www.iconninja.com/files/762/146/336/coding-development-programming-program-html5-code-icon.png"
+                                alt="HTML5">
+                        </div>
+                        <div class="col-sm-3">
+                            <img style="width:100%" src="http://www.iconninja.com/files/924/835/832/technology-css3-website-css-style-internet-web-icon.png"
+                                alt="CSS3">
+                        </div>
+                        <div class="col-sm-3">
+                            <img style="width:100%" src="http://www.iconninja.com/files/541/586/346/command-language-software-develop-code-programming-javascript-icon.png"
+                                alt="JavaScript">
+                        </div>
+                    </div>
+                -->
+                </div>
+        </div>
+    </div>
+
+    <div class="fullpage-wrapper section">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="d-flex flex-lg-column">
+                    <h1 style="text-align: left;">
+                        <a name="contact">Contact</a>
+                    </h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <a href="https://www.youtube.com/channel/UCSXCv3aGbhfhdbIv3_dsLeA?view_as=subscriber" target="_blank">
+                    <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/youtube2-256.png"
+                        alt="Youtube">
+                </a>
+                <a href="http://www.twitter.com/poiikaer" target="_blank">
+                    <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/twitter-256.png" alt="Twitter">
+                </a>
+                <a href="http://www.instagram.com/poikaer" target="_blank">
+                    <img class="enlarge contact-icon" src="https://cdn3.iconfinder.com/data/icons/social-circle/512/social_6-256.png" alt="Instagram">
+                </a>
+                <a href="https://github.com/kllewiss" target="_blank">
+                    <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-256.png" alt="Github">
+                    <a href="https://www.linkedin.com/in/kristen-lewis-2282ab150/" target="_blank">
+                        <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/linkedin-512.png"
+                            alt="Linkedin">
+                    </a>
+            </div>
+        </div>
+        <div style="padding-top: 50px;" class="container-fluid">
+            <div class="copyright row justify-content-center">
+                <p style="font-size: .5em;">© 2018 Kristen Lewis</p>
+            </div>
+        </div>
+    </div>
+</div>

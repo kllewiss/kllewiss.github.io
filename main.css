@@ -1,0 +1,350 @@
+header {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+body {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+p {
+    font-family: 'Raleway', serif;
+    size: 1rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Allura', serif;
+    color: #2e2e2e;
+}
+
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #2e2e2e;
+}
+
+em {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    margin: 50px;
+}
+
+nav a {
+    padding: 20px;
+    color: #2e2e2e;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+a {
+    color: #eee;
+}
+
+a:hover {
+    color: #eee;
+    text-decoration: none;
+}
+
+/* Button Styles */
+
+.btn {
+    opacity: .5;
+}
+
+.button:active {
+    transform: translateY(2px);
+}
+
+/* About Section Styles */
+
+.modal-body {
+    color: #2e2e2e;
+}
+
+.modal-section {
+    padding: 10px 20px;
+}
+
+/* About Section Styles */
+
+.emoji {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#about-section {
+    margin: 20px;
+    width: 100%;
+}
+
+.about-image {
+    float: right;
+    transform: rotate(10deg);
+    margin-top: -200px;
+    position: static;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+/* General Section Styles */
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.jumbotron {
+    padding: 20px;
+    background-position: cover;
+    background-color: #eeeeee;
+}
+
+.section-header {
+    padding: 30px;
+    position: static;
+    font-family: "Allura";
+    color: #eee;
+}
+
+.text-section {
+    max-width: 60%;
+}
+
+.logoName h1 {
+    padding: 0 60px;
+    font-size: 100px;
+    justify-content: center;
+    font-family: "Allura", serif;
+}
+
+.logoName h3{
+    padding: 0 60px;
+    font-size: 20px;
+    justify-content: center;
+    font-family: "Raleway", serif;
+}
+
+.main-container {
+    background: #2e2e2e;
+    position: relative;
+    color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 300px;
+
+}
+/*
+.main-container:before {
+    font-family: 'Allura', serif;
+    font-size: 100px;
+    z-index: -4;
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: -200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    background: #2e2e2e;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-transform: skewY(-6deg);
+    -moz-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    -o-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.about-ender {
+    background: #eee;
+    position: relative;
+    color: #2e2e2e;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about-ender:before {
+    font-family: 'Allura', serif;
+    font-size: 100px;
+    z-index: -4;
+    content: 'Work';
+    position: absolute;
+    left: 0;
+    top: -200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    background: #2e2e2e;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-transform: skewY(-6deg);
+    -moz-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    -o-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+*/
+.parallax {
+    /* The image used */
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/*Portfolio Styles*/
+
+.portfolio {
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.portfolio-image {
+    size: contain;
+    position: center;
+    height: 65%;
+    width: 100%;
+}
+
+.portfolio-content {
+    margin: 0 auto;
+    width: 100%;
+}
+/*
+.portfolio .main-container,
+h1 {
+    color: #2e2e2e;
+    z-index: 1;
+    -webkit-transform: skewY(-6deg);
+    -moz-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    -o-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    font-size: 6em;
+    text-align: right;
+}
+*/
+.portfolio h5 {
+    font-family: 'Raleway', serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.portfolio p {
+    font-size: 1em;
+    padding: 10px;
+}
+
+.portfolio img {
+    filter: saturate(0%);
+}
+
+.portfolio img:hover {
+    filter: saturate(100%);
+}
+
+.portfolio-header {
+    font-family: "Allura", serif;    
+}
+
+.portfolio-item {
+    background-color: #eee;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+}
+
+/* Hover Styles */
+
+.enlarge {
+    transition: transform .3s;
+    margin: 0 auto;
+}
+
+.enlarge:hover {
+    transform: scale(1.05);
+
+}
+
+/*Footer Styles*/
+
+.footer {
+    background: #2e2e2e;
+    color: #eee;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.footer h3 {
+    padding: 20px;
+    color: #eee;
+}
+
+.contact-icon {
+    max-width: 75px;
+    max-height: 75px;
+    padding: 10px;
+}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+    	/*Adding background for the slides
+    * --------------------------------------- */
+    #aboutSection {
+        background: #2e2e2e;
+    }
+
+	#slide1{
+        background-image: url(https://image.ibb.co/mVoNZS/Screen_Shot_2018_05_07_at_2_26_15_PM.png);
+        background-size: cover;
+		padding: 0 0 0 0;
+	}
+	#slide2{
+        background-image: url(https://i.imgur.com/xu2SmyH.png);
+        background-size: cover;
+		padding: 0 0 0 0;
+	}
