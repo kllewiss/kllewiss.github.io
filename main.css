@@ -1,10 +1,15 @@
-header {
-    background-color: #eeeeee;
+#section2 {
+    z-index: 1;
+    background: linear-gradient(to bottom right, 2e2e2e, white);
+}
+
+header {/*
+    background-color: #eeeeee;*/
     width: 100%;
 }
 
-body {
-    background-color: #eeeeee;
+body {/*
+    background-color: #eeeeee;*/
     width: 100%;
 }
 
@@ -133,8 +138,8 @@ a:hover {
     font-family: "Raleway", serif;
 }
 
-.main-container {
-    background: #eee;
+.main-container {/*
+    background: #eee;*/
     position: relative;
     color: #2e2e2e;
     display: flex;
@@ -329,12 +334,12 @@ h1 {
 
     	/*Adding background for the slides
     * --------------------------------------- */
-    #aboutSection {
-        background: #eee;
+    #aboutSection {/*
+        background: #eee;*/
     }
 
-    #section1 {
-        background: #eee;
+    #section1 {/*
+        background: #eee;*/
     }
 
     #section2 {
