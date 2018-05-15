@@ -5,7 +5,7 @@
 
 .call-to-action p{
     font-family: 'Raleway', sans-serif;
-    color: #444444;
+    color: #eee;
     font-size: 6px;
     margin-bottom: 0 auto;
     padding-bottom: -100px;
@@ -233,7 +233,6 @@ a:hover {
 
 .portfolio {
     padding-bottom: 50px;
-    justify-content: center;
 }
 
 .portfolio-image {
@@ -275,6 +274,7 @@ h1 {
 
 .portfolio img {
     filter: saturate(0%);
+    margin-top: -90px;
 }
 
 .portfolio img:hover {
@@ -286,14 +286,21 @@ h1 {
 }
 
 .portfolio-item {
-    background-color: #eee;
+    background-color: #2e2e2e;
     opacity: 0.95;
-    z-index: 4;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-top: 100px;
     margin: 0 auto;
     padding-bottom: 20px;
-    max-width: 40%;
+    width: 100%;
+    height: 100%;
+    color: #eee;
+}
+
+.portfolio-section {
+    background-color: #2e2e2e;
+    padding: 50px 50px;
+    color: #eee;
+    justify-content: left;
 }
 
 /* Hover Styles */
@@ -341,42 +348,14 @@ h1 {
 	/* Backgrounds will cover all the section
 	* --------------------------------------- */
 	.section{
-		background-size: cover;
+		background-size: contain;
 	}
 	.slide{
-        background-size: cover;
+        background-size: contain;
         float: right;
 	}
-
-    	/*Adding background for the slides
-    * --------------------------------------- */
-    #aboutSection {/*
-        background: #eee;*/
-    }
-
-
-    #section1 {/*
-        background: #eee;*/
-    }
 
     #section2 {
         max-width: 90%;
         float: right;
-    }
-
-	#slide1{
-        background-image: url(https://i.imgur.com/QhcDyi0.png);
-        background-size: contain;
-		padding: 0 0 0 0;
-	}
-	#slide2{
-        background-image: url(https://i.imgur.com/xu2SmyH.png);
-        background-size: contain;
-		padding: 0 0 0 0;
-    }
-    
-    #slide3 {
-        background-image: url(https://image.ibb.co/bPqw6J/internationalsupport.png);
-        background-size: contain;
-        padding: 0 0 0 0;
     }
