@@ -1,6 +1,19 @@
-#section2 {
+#contact {
     z-index: 1;
-    background: linear-gradient(to bottom right, 2e2e2e, white);
+    background: linear-gradient(to bottom right, white, grey);
+}
+
+.call-to-action p{
+    font-family: 'Raleway', sans-serif;
+    color: #444444;
+    font-size: 6px;
+    margin-bottom: 0 auto;
+    padding-bottom: -100px;
+}
+.call-to-action img {
+    padding-top: -100px;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 header {/*
@@ -274,10 +287,13 @@ h1 {
 
 .portfolio-item {
     background-color: #eee;
+    opacity: 0.95;
+    z-index: 4;
     padding-left: 0px;
     padding-right: 0px;
-    margin-right: 0px;
+    margin: 0 auto;
     padding-bottom: 20px;
+    max-width: 40%;
 }
 
 /* Hover Styles */
@@ -338,6 +354,7 @@ h1 {
         background: #eee;*/
     }
 
+
     #section1 {/*
         background: #eee;*/
     }
@@ -356,4 +373,10 @@ h1 {
         background-image: url(https://i.imgur.com/xu2SmyH.png);
         background-size: contain;
 		padding: 0 0 0 0;
-	}
+    }
+    
+    #slide3 {
+        background-image: url(https://image.ibb.co/bPqw6J/internationalsupport.png);
+        background-size: contain;
+        padding: 0 0 0 0;
+    }
