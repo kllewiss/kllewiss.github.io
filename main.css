@@ -101,9 +101,10 @@ a:hover {
     max-height: 30px;
 }
 
-#about-section {
+#aboutSection {
     margin: 20px;
     width: 100%;
+    background: linear-gradient(to bottom left, #e0e0e0, white, white);
 }
 
 .about-image {

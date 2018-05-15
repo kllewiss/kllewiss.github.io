@@ -36,11 +36,11 @@
 
                 //Scrolling
                 css3: true,
-                scrollingSpeed: 700,
+                scrollingSpeed: 1000,
                 autoScrolling: true,
                 fitToSection: true,
                 fitToSectionDelay: 1000,
-                scrollBar: true,
+                scrollBar: false,
                 easing: 'easeInOutCubic',
                 easingcss3: 'ease',
                 loopBottom: false,
@@ -76,7 +76,7 @@
                 fixedElements: '#header, .footer',
                 responsiveWidth: 0,
                 responsiveHeight: 0,
-                responsiveSlides: true,
+                responsiveSlides: false,
                 parallax: false,
                 parallaxOptions: {
                     type: 'reveal',
@@ -88,7 +88,7 @@
                 sectionSelector: '.section',
                 slideSelector: '.slide',
 
-                lazyLoading: true,
+                lazyLoading: false,
 
                 //events
                 onLeave: function (index, nextIndex, direction) {},
@@ -116,7 +116,7 @@
     </div>
 
     <div class="fullpage-wrapper section" id="section2">
-        <div class="container fp-slides">
+        <div class="container fp-slidesContainer">
             <div class="portfolio">
                 <div class="portfolio-header justify-content-center">
                     <h2>Ongoing Projects</h2>
@@ -175,7 +175,7 @@
                     
                                 <div id="carouselExampleControls" class="carousel" data-ride="carousel">
                                         <div class="carousel-inner">
-                                            <div class="carousel-item active">
+                                            <div class="carousel-item">
                                                 <img class="d-block w-100" src="https://image.ibb.co/k5sA3n/Edited_Slide_1.png" alt="First slide">
                                             </div>
                                             <div class="carousel-item">
@@ -228,7 +228,7 @@
                     </div>
                 </div>
             </div>
-            
+            <!---
                     <div class="slide" id="slide2">
                         <div class="col-lg-12">
                                 <div class="portfolio-item">
@@ -279,7 +279,7 @@
                                 </div>
                         </div>
                     </div>
-                    <!--
+                    
                     <div class="slide" id="slide3">
                         <div class="col-lg-12">
                             <div class="portfolio-item shadow-sm">
