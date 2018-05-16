@@ -243,9 +243,10 @@ a:hover {
     width: 100%;
 }
 
-.portfolio-content {
+.portfolio-container {
     margin: 0 auto;
     width: 100%;
+    align-content: center;
 }
 /*
 .portfolio .main-container,
@@ -288,7 +289,7 @@ h1 {
     padding-top: 100px;
     margin: 0 auto;
     padding-bottom: 20px;
-    width: 100%;
+    width: 90%;
     height: 100%;
     color: #2e2e2e;
 }
