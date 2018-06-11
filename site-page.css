@@ -1,0 +1,157 @@
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.portfolio-nav {
+    color: #eee !important;
+    background: -moz-linear-gradient(#a29fb8, #fff);
+    background: -webkit-linear-gradient(#a29fb8, #fff);
+    background: linear-gradient (#a29fb8, #fff);
+    font-family: 'Dosis';
+}
+
+.port-nav-logo {
+    font-size: 50px;
+    background: -webkit-linear-gradient(#e1bdcc, #fffaeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px 5px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #eee;
+    display: block;
+}
+
+.sidenav a:hover {
+    text-decoration: none;
+    color: #e1bdcc;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transtition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.main {
+    margin-left: 100px;
+    /* Same as the width of the sidenav */
+    padding: 0px 10px;
+    width: 90%;
+    overflow: hidden;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#portfolio-head {
+    background: -webkit-linear-gradient(#e1bdcc, #fffaeb);
+    background: linear-gradient (#e1bdcc, #fffaeb);
+}
+
+/*Portfolio Styles*/
+
+.portfolio {
+    padding-bottom: 50px;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-image {
+    size: contain;
+    position: center;
+    width: 400px;
+    height: 400px;
+}
+
+.portfolio-container {
+    margin: 0 auto;
+    width: 100%;
+    align-content: center;
+}
+
+/*
+.portfolio .main-container,
+h1 {
+    color: #2e2e2e;
+    z-index: 1;
+    -webkit-transform: skewY(-6deg);
+    -moz-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    -o-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    font-size: 6em;
+    text-align: right;
+}
+*/
+
+.portfolio h5 {
+    font-family: 'Raleway', serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.portfolio p {
+    font-size: 1em;
+    padding: 10px;
+}
+
+.portfolio-header {
+    font-family: "Allura", serif;
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.portfolio-main {
+    text-align: center;
+    font-family: "Allura", serif;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    display: contain;
+    width: 100%;
+    padding-bottom: 20px;
+    color: #2e2e2e;
+}
+
+.portfolio-section {
+    color: #2e2e2e;
+    margin-left: 80px;
+}
+
+.portfolio-section h4 {
+    margin-top: 50px;
+    font-size: 2em;
+    padding: 10px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portfolio-section p, li, ul {
+    font-family: 'Dosis', sans-serif !important;
+}
