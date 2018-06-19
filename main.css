@@ -140,6 +140,8 @@ a:hover {
     justify-content: center;
     font-family: "Allura", serif;
     line-height: -50px;
+    text-shadow: 3px 3px #967884;
+
 }
 
 .logoName h3{
@@ -148,22 +150,25 @@ a:hover {
     font-size: 1.5em;
     justify-content: center;
     font-family: "Raleway", serif;
+    text-shadow: 2px 2px #967884;
+
 }
 
 .main-container {/*
     background: #eee;*/
     position: relative;
-    color: #2e2e2e;
+    color: #eee;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    text-shadow: 1px 1px #967884;
 }
 
 /* Hover Styles */
 
 .enlarge {
     transition: .2s;
-    filter: drop-shadow(2px 2px 2px #fff);
+    filter: drop-shadow(2px 2px 2px #707070);
     margin: 0 auto;
 }
 
@@ -209,6 +214,7 @@ a:hover {
 #contact h1 {
     font-family: 'Allura', sans-serif;
     font-size: 6em;
+    text-shadow: 3px 3px #967884;
 }
 
 	/* Backgrounds will cover all the section
@@ -222,9 +228,10 @@ a:hover {
 	}
 
     #section1 {
-        background: -webkit-gradient(linear, top left, bottom left, from(#e1bdcc), to(#eee));
-        background: -webkit-linear-gradient(#e1bdcc, #eee);
-        background: linear-gradient (#e1bdcc,#eee);
+        background: -webkit-gradient(linear, top left, bottom left, from(#967884), to(#e1bdcc));
+        background: -webkit-linear-gradient(#967884, #e1bdcc);
+        background: linear-gradient (#967884, #e1bdcc);
+        color: #eee;
     }
     #section2 {
         max-width: 100%;
@@ -234,9 +241,10 @@ a:hover {
 
     #contact {
         z-index: 1;
-        background: -webkit-gradient(linear, top left, bottom left, from(#eee), to(#a29fb8));
-        background: -webkit-linear-gradient(#eee, #a29fb8);
-        background: linear-gradient (#eee,#a29fb8);
+        background: -webkit-gradient(linear, top left, bottom left, from(#e1bdcc), to(#967884));
+        background: -webkit-linear-gradient(#e1bdcc,#967884);
+        background: linear-gradient (#e1bdcc,#967884);
+        color: #eee;
     }
 
     	/* Responsive Sections
