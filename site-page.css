@@ -77,10 +77,10 @@
     overflow: hidden;
 }
 
-@media screen and (max-height: 1050px) {
+@media screen and (max-width: 1050px) {
 
     .portfolio-nav {
-        background: none;
+        background: transparent;
     }
 
     .sidenav {
@@ -89,6 +89,7 @@
         z-index: 1;
         overflow-x: hidden;
         font-size: 2em;
+        background: transparent;
     }
 }
 
