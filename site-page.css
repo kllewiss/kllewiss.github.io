@@ -156,7 +156,7 @@ h1 {
 
 .portfolio-item {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     margin: 0 auto;
     display: contain;
     width: 100%;
@@ -166,7 +166,7 @@ h1 {
 
 .portfolio-item img {
     width: 80%; 
-    margin-top: -100px; 
+    margin-top: -50px; 
 }
 
 
