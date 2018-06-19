@@ -22,6 +22,7 @@
     font-size: 50px;
     background: -webkit-linear-gradient(#e1bdcc, #fffaeb);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 5px 5px;
 }
@@ -126,8 +127,13 @@ h1 {
 
 .portfolio-main {
     text-align: center;
-    font-family: "Allura", serif;
+    font-family: "Raleway", serif;
     margin: 0 auto;
+}
+
+.portfolio-main i {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .portfolio-item {
@@ -140,16 +146,32 @@ h1 {
     color: #2e2e2e;
 }
 
+.portfolio-item img {
+    width: 80%; 
+    margin-top: -100px; 
+}
+
+
 .portfolio-section {
     color: #2e2e2e;
     margin-left: 80px;
 }
 
+.portfolio-section h1 {
+    text-align: center;
+    font-size: 6em;
+    margin: 30px 10px;
+}
+
 .portfolio-section h4 {
-    margin-top: 50px;
+    margin: 25px 0px;
     font-size: 2em;
     padding: 10px 10px;
     font-family: 'Raleway', sans-serif;
+}
+
+.portfolio-section h3 {
+    margin: 25px 0px;
 }
 
 .portfolio-section p, li, ul {
