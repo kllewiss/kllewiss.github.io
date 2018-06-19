@@ -239,3 +239,29 @@ a:hover {
         background: -webkit-linear-gradient(#eee, #a29fb8);
         background: linear-gradient (#eee,#a29fb8);
     }
+
+    	/* Responsive Sections
+    * --------------------------------------- */
+    @media screen and (max-width: 1020px) {
+        .row {
+            float: none;
+            width: auto;
+        }
+
+        #section1 h3, h1, p {
+            text-align: center !important;
+            justify-content: center;
+        }
+
+        #section1 {
+            margin: 0 auto;
+        }
+
+        .logoName h1 {
+            font-size: 4em;
+        }
+
+        .main-container h3, p {
+            font-size: 1em;
+        }
+    }
