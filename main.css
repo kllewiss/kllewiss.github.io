@@ -104,7 +104,6 @@ a:hover {
 }
 
 .about-image {
-    float: right;
     border-radius: 50%;
     position: static;
     max-width: 200px;
@@ -255,6 +254,10 @@ a:hover {
 
         #section1 {
             margin: 0 auto;
+        }
+
+        .about-image {
+            margin: 0 0;
         }
 
         .logoName h1 {
