@@ -12,18 +12,15 @@
 
 .portfolio-nav {
     color: #eee !important;
-    background: -moz-linear-gradient(#a29fb8, #fff);
-    background: -webkit-linear-gradient(#a29fb8, #fff);
-    background: linear-gradient (#a29fb8, #fff);
-    font-family: 'Dosis';
+    background: -moz-linear-gradient(#691a14, #ab3e16);
+    background: -webkit-linear-gradient(#691a14, #ab3e16);
+    background: linear-gradient (#691a14, #ab3e16);
+    font-family: 'Lato';
+    font-weight: 400;
 }
 
 .port-nav-logo {
-    font-size: 50px;
-    background: -webkit-linear-gradient(#e1bdcc, #fffaeb);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    max-height: 100px;
     padding: 5px 5px;
 }
 
@@ -61,7 +58,7 @@
 
 .sidenav a:hover {
     text-decoration: none;
-    color: #a29fb8;
+    color: #691a14;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transtition: .5s;
@@ -139,8 +136,8 @@ h1 {
 */
 
 .portfolio h5 {
-    font-family: 'Raleway', serif;
-    font-weight: 600;
+    font-family: 'Lato', serif;
+    font-weight: 700;
     font-size: 1.5em;
     padding: 10px;
 }
@@ -151,14 +148,16 @@ h1 {
 }
 
 .portfolio-header {
-    font-family: "Allura", serif;
+    font-family: "Lato", serif;
+    font-weight: 700;
     text-align: center;
     margin: 50px 50px;
 }
 
 .portfolio-main {
     text-align: center;
-    font-family: "Raleway", serif;
+    font-family: "Lato", serif;
+    font-weight: 400;
     margin: 0 auto;
 }
 
@@ -170,7 +169,7 @@ h1 {
 
 .portfolio-item {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 100px;
     margin: 0 auto;
     display: contain;
     width: 100%;
@@ -180,7 +179,6 @@ h1 {
 
 .portfolio-item img {
     width: 80%;
-    margin-top: -50px;
 }
 
 .portfolio-section {
@@ -198,7 +196,7 @@ h1 {
     margin: 25px 0px;
     font-size: 2em;
     padding: 10px 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .portfolio-section h3 {
@@ -208,7 +206,7 @@ h1 {
 .portfolio-section p,
 li,
 ul {
-    font-family: 'Dosis', sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
 }
 
 @media screen and (max-width: 1020px) {
