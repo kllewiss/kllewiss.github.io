@@ -77,12 +77,16 @@ a:hover {
 
 /* About Section Styles */
 
-.modal-body {
-    color: #2e2e2e;
-}
-
-.modal-section {
-    padding: 10px 20px;
+.flowers {
+    position: absolute;
+    z-index: -1;
+    float: right;
+    top: 0;
+    right: 0;
+    margin-top: -800px;
+    margin-right: -300px;
+    max-width: 1000px;
+    opacity: .5;
 }
 
 /* About Section Styles */
@@ -106,7 +110,7 @@ a:hover {
     padding-right: 50px;
     font-size: 2rem;
     text-align: right;
-    color: #f8f3e6;
+    color: #691a14;
 }
 
 .icons a:hover {
@@ -116,7 +120,7 @@ a:hover {
     -moz-transtition: .5s;
     -webkit-transition: .5s;
     transition: .5s;
-    text-shadow: 3px 3px #691a14;
+    text-shadow: 2px 2px #f8f3e6;
 }
 
 .about-1, .about-2 {
@@ -159,7 +163,8 @@ a:hover {
     font-family: "Lato", serif;
     font-weight: 700;
     line-height: -50px;
-    text-shadow: 3px 3px #691a14;
+    color: #691a14;
+    text-shadow: 3px 3px #f8f3e6;
 }
 
 .logoName h3 {
@@ -169,26 +174,31 @@ a:hover {
     justify-content: center;
     font-family: "Lato", serif;
     font-weight: 400;
-    color: #f8f3e6;
-    text-shadow: 2px 2px #691a14;
+    color: #691a14;
+    text-shadow: 2px 2px #f8f3e6;
 }
 
 .logoName img {
     padding-bottom: 50px;
+    max-width: 100%;
+}
+
+.dont-click {
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    max-width: 100%;
+    -webkit-filter: drop-shadow(2px 2px 2px  #f8f3e6);
+    filter: drop-shadow(2px 2px 2px #f8f3e6);
 }
 
 .main-container {
-    color: #f8f3e6;
+    color: #691a14;
     width: 100%;
     margin-left: 200px !important;
     margin-top: 50px;
-    text-shadow: 1px 1px #691a14;
+    text-shadow: 1px 1px #f8f3e6;
 }
 
 /* Hover Styles */
@@ -213,7 +223,6 @@ a:hover {
 /*Footer Styles*/
 
 .footer {
-    background: #2e2e2e;
     color: #f8f3e6;
     padding: 10px;
     position: relative;
@@ -246,35 +255,35 @@ a:hover {
 /* Backgrounds will cover all the section
 	* --------------------------------------- */
 
-.section {
-    background-size: contain;
-}
-
 .slide {
     width: 100%;
     padding-bottom: 100px;
 }
 
+.section {
+    z-index: -2;
+    background-color: #f8f3e6 !important;
+    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") !important;
+    color: #2e2e2e;
+}
+/*
 #section1 {
-    background: -webkit-gradient(linear, top left, bottom left, from(#691a14), to(#ab3e16));
-    background: -webkit-linear-gradient(#691a14, #ab3e16);
-    background: linear-gradient (#691a14, #ab3e16);
-    color: #f8f3e6;
+    background-color: #f8f3e6;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    color: #2e2e2e;
 }
 
 #section2 {
-    max-width: 100%;
-    float: right;
-    background-color: #f8f3e6 !important;
+    background-color: #f8f3e6;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
 }
 
 #contact {
     z-index: 1;
-    background: -webkit-gradient(linear, top left, bottom left, from(#ab3e16), to(#691a14));
-    background: -webkit-linear-gradient(#ab3e16, #691a14);
-    background: linear-gradient (#ab3e16, #691a14);
-    color: #f8f3e6;
-}
+    background-color: #f8f3e6;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    color: #2e2e2e;
+}*/
 
 /* Responsive Sections
     * --------------------------------------- */
