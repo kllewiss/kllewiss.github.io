@@ -2,6 +2,7 @@
     padding: 0 0;
     margin: 0 0;
 }
+
 .portfolio-nav {
     color: #eee !important;
     background: -moz-linear-gradient(#691a14, #ab3e16);
@@ -47,8 +48,8 @@
 .portfolio-image {
     size: contain;
     position: center;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .portfolio-container {
@@ -120,6 +121,7 @@ h1 {
 
 .portfolio-section {
     color: #2e2e2e;
+    padding: 30px 60px;
 }
 
 .portfolio-section h1 {
