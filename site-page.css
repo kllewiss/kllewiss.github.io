@@ -1,15 +1,7 @@
-.sidenav {
-    height: 100%;
-    width: 150px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.navbar {
+    padding: 0 0;
+    margin: 0 0;
 }
-
 .portfolio-nav {
     color: #eee !important;
     background: -moz-linear-gradient(#691a14, #ab3e16);
@@ -24,68 +16,9 @@
     padding: 5px 5px;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 1rem;
-    color: #fff;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    background: none;
-    z-index: 0;
-    width: 100%;
-}
-
-.sidenav a:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    background: #fff;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    transition: transform .3s ease-out;
-}
-
-.sidenav a:hover:before {
-    transform: scaleX(1);
-}
-
-.sidenav a:hover {
-    text-decoration: none;
-    color: #691a14;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transtition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-
-.main {
-    margin-left: 100px;
-    /* Same as the width of the sidenav */
-    padding: 0px 10px;
-    width: 90%;
-    overflow: hidden;
-}
-
 @media screen and (max-width: 1050px) {
 
     .portfolio-nav {
-        background: transparent;
-    }
-
-    .sidenav {
-        display: inline;
-        position: static;
-        z-index: 1;
-        overflow-x: hidden;
-        font-size: 2em;
         background: transparent;
     }
 }
@@ -97,6 +30,10 @@
 
 /*Portfolio Styles*/
 
+.jumbotron {
+    width:100%;
+
+}
 .portfolio {
     padding-bottom: 50px;
 }
@@ -183,7 +120,6 @@ h1 {
 
 .portfolio-section {
     color: #2e2e2e;
-    margin-left: 80px;
 }
 
 .portfolio-section h1 {
@@ -208,7 +144,7 @@ li,
 ul {
     font-family: 'Lato', sans-serif !important;
 }
-
+/*
 @media screen and (max-width: 1020px) {
     .main, body {
     background: -moz-linear-gradient(#a29fb8, #fff);
@@ -257,4 +193,4 @@ ul {
     .demo-img {
         visibility: hidden;
     }
-}
+}*/
