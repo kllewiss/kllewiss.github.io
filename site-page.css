@@ -5,7 +5,7 @@ body {
 
 .hero {
     z-index: -2;
-    background-color: #f8f3e6 !;
+    background-color: #f8f3e6 !important;
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") !important;
     color: #2e2e2e;
 }
@@ -50,10 +50,11 @@ body {
 }
 
 .navbar-item:hover {
-    color: #000;
-    background-color: #fff !important;
-    border: .3px solid #000 !important;
-    transition: .5s;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: #2e2e2e;
+    border-bottom: .3px solid #000 !important;
+    transition: 1s !important;
 }
 
 .portfolio-nav {
