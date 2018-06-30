@@ -299,14 +299,14 @@ a:hover {
         float: none;
         width: auto;
     }
-    #section1 h3,
+    #home h3,
     h1,
     p {
         text-align: center !important;
         justify-content: center;
         z-index: 2;
     }
-    #section1 {
+    #home {
         margin: 0 auto;
     }
     .about-image {
