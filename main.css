@@ -83,10 +83,8 @@ a:hover {
 
 .flower2 {
     position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    margin: auto 100px;
+    z-index: 1;
+    margin-top: -300px;
     max-width: 1000px;
     opacity: .5;
 }
@@ -230,13 +228,8 @@ a:hover {
 .footer {
     color: #f8f3e6;
     background-color: black !important;
-    padding: 10px;
-    position: relative;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    height: 100%;
-    justify-content: flex-start;
+    z-index: 3;
 }
 
 .footer h3 {
