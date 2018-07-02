@@ -40,44 +40,24 @@ body {
 /* end */  
 
 .navbar {
-    background: transparent !important;
-    padding: 0 0;
-    margin: 10px 20px;
-    line-height: 10px;
+    background: black !important;
+    padding: 10px 10px;
+    line-height: 20px;
+    max-height: 50px;
     display: inline;
 }
 
-.nav-btn{
-    background: #691a14 !important;
-    color: #eee !important;
-    border-radius: 5px;
-    margin: 10px 10px;
-    padding: 10px 10px;
-    box-shadow: 1px 1px 10px  gray;
-}
-
 .navbar-item {
-    background: #fff !important;
-    color: #691a14 !important;
-    border-radius: 5px;
-    margin: 10px 10px;
-    box-shadow: 1px 1px 10px  gray;
-}
-
-.navbar-menu {
-    padding: 10px 10px;
+    background: transparent !important;
+    color: #eee !important;
+    padding: 10px 20px;
 }
 
 .navbar-item:hover {
-    background: #691a14 !important;
-    color: #eee !important;
-    transition: .3s !important;
-}
-.nav-btn:hover {
-    background: #fff !important;
-    background-image: none !important;
-    color: #691a14 !important;
-    transition: .3s !important;
+    background: #eee !important;
+    color: black !important;
+    border-radius: 5px;
+    transition: .5s !important;
 }
 
 .portfolio-nav {
@@ -171,9 +151,8 @@ h1 {
 }
 
 .portfolio-main img {
-    padding-top: 300px;
     padding-bottom: 50px;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .portfolio-main i {
@@ -184,15 +163,12 @@ h1 {
 
 .portfolio-item {
     padding-top: 100px;
-    display: contain;
     width: 100%;
     padding-bottom: 20px;
     color: #2e2e2e;
 }
 .portfolio-columns {
     width: 100%;
-    margin-left: 50px !important;
-    margin-right: 50px !important;
 }
 .portfolio-item img {
     width: 100%;

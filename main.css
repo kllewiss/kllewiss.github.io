@@ -4,6 +4,10 @@ html {
 
 }
 
+.section { 
+    height: 100vh; 
+}
+
 header {
     /*
     background-color: #eeeeee;*/
@@ -182,8 +186,7 @@ a:hover {
 }
 
 .logoName img {
-    margin-left: 50px;
-    padding: 50px 50px;
+    padding-top: 100px;
     max-width: 100%;
 }
 
@@ -200,11 +203,16 @@ a:hover {
 .main-container {
     color: #691a14;
     width: 100%;
-    margin-left: 400px !important;
+    margin-left: 100px !important;
     text-shadow: 1px 1px #f8f3e6;
 }
 
 /* Hover Styles */
+
+.screens {
+    -webkit-filter: drop-shadow(2px 2px 2px  gray);
+    filter: drop-shadow(2px 2px 2px gray);
+}
 
 .enlarge {
     transition: .2s;
