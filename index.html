@@ -29,7 +29,7 @@
 
 </head>
 
-<div id="fullpage">
+<body id="fullpage">
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -41,8 +41,8 @@
 
         <div class="navbar-menu nav-right" id="navMenu">
             <div class="navbar-end">
-                <a class="navbar-item" href="index.html">Home</a>
                 <a class="navbar-item" href="index.html#portfolio">Projects</a>
+                <a class="navbar-item" href="index.html#about">About</a>
                 <a class="navbar-item" href="index.html#contact">Contact</a>
             </div>
         </div>
@@ -63,12 +63,6 @@
                                 <br>I'm an aspiring web and UI/UX designer.
                             </h3>
                         </div>
-                        <div class="about-2 animate-reveal animate-third">
-                            <p>
-                                Based in Western Japan
-                                <br>Spends all her free time playing video games
-                            </p>
-                        </div>
                     </div>
                 </div>
                 <img class="dont-click flowers animate-first" src="8.png">
@@ -78,13 +72,17 @@
 
     <div class="section portfolio">
         <div class="portfolio-main columns is-centered" id="portfolio">
-            <h2>
                 <img class="dont-click" src="work-logo.png">
-            </h2>
         </div>
         <div class="columns is-centered">
-            <h4>Website Design ・ Social Media Management</h4>
+            <ul class="work-nav">
+                <li class="active">web design</li>
+                <li>ui design</li>
+                <li>front-end development</li>
+            </ul>
         </div>
+
+        <!--Row 1-->
         <div class="columns is-centered">
             <div class="portfolio-item column is-one-half">
                 <div id="vine">
@@ -95,6 +93,68 @@
                     </a>
                 </div>
             </div>
+
+            <div class="portfolio-item column is-one-half">
+                <div id="portfolio-text">
+                    <h1 class="big-number">01</h1>
+                    <p class="work-info">
+                        <em>
+                            <strong>Work Dates</strong>
+                        </em>
+                        <br> June 2016 - August 2017
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Client</em>
+                        </strong>
+                        <br> Vine Sourdough Bakery
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Service Provided</em>
+                        </strong>
+                        <br> Web design/Social media management
+                    </p>
+                    <p class="work-summary">
+                        This website was created for an organic sourdough bakery in Gainesville, FL. When I first met with one of the co-owners,
+                        we discussed their needs for their new website. At the time, they were using a free Wordpress blog
+                        to showcase events, but had no online menu or information about the business.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Row 2-->
+        <div class="columns is-centered">
+            <div class="portfolio-item column is-one-half">
+                <div class="has-text-right" id="portfolio-text">
+                    <h1 class="big-number">02</h1>
+                    <p class="work-info">
+                        <em>
+                            <strong>Work Dates</strong>
+                        </em>
+                        <br> August 2017 - now
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Client</em>
+                        </strong>
+                        <br> Wide Island View
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Service Provided</em>
+                        </strong>
+                        <br> Web design/Social media management
+                    </p>
+                    <p class="work-summary">
+                        This webzine was created by and for a group of JET Program participants in Hiroshima, Japan. The JET Program employs native
+                        English speakers from all over the world to come to Japan and share their language and culture with
+                        Japanese youth. My greatest hurdle to overcome with this website was the amount of content displayed
+                        and how to present it in an accessible manner.
+                    </p>
+                </div>
+            </div>
+
             <div class="portfolio-item column is-one-half">
                 <div id="wiv">
                     <a href="./wideislandview.html">
@@ -104,10 +164,10 @@
                     </a>
                 </div>
             </div>
-
         </div>
-    </div>
 
+    </div>
+    <!--
     <div class="section" id="about">
         <div class="container">
             <div class="columns">
@@ -142,15 +202,41 @@
     </div>
 
     <div class="section" id="contact">
-        <div class="columns is-centered">
-            <div class="column has-text-centered" id="contact">
-                <h1>
-                    <img class="dont-click" src="contact-logo.png">
-                    </a>
-                </h1>
+        <div class="container columns is-centered">
+                <img class="dont-click" src="contact-logo.png">
+        </div>
+        <div id="contact-form" class="columns is-centered">
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="text" placeholder="Name">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope fa-xs"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-check fa-xs"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="Email">
+                    <span class="icon is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-right">
+                        <i class="fas fa-check"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <textarea class="textarea" placeholder="Type your message here"></textarea>
+                </div>
             </div>
         </div>
     </div>
+
+
     <div class="footer">
         <div class="columns is-centered">
             <a href="https://www.youtube.com/channel/UCSXCv3aGbhfhdbIv3_dsLeA?view_as=subscriber" target="_blank">
@@ -173,8 +259,8 @@
         <div class="columns is-centered">
             <p> 2018 Kristen Lewis</p>
         </div>
-    </div>
-</div>
+    </div>-->
+</body>
 
 </html>
 

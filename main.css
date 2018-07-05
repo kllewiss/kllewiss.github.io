@@ -1,23 +1,25 @@
-html {
-    border: 20px solid black;
-    z-index: 5;
-
-}
-
 .section { 
     height: 100vh; 
 }
 
 header {
-    /*
-    background-color: #eeeeee;*/
     width: 100%;
 }
 
 body {
-    /*
-    background-color: #eeeeee;*/
     width: 100%;
+}
+
+#home {
+    height: 100vh;
+    /* The image used */
+    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
 }
 
 p {
@@ -49,6 +51,56 @@ nav a {
     position: relative;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+}
+
+#contact-form {
+    display: block;
+    max-width: 800px;
+}
+
+input {
+    width: 100%;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border-bottom: 1px black solid !important;
+}
+
+input[type=text]:focus {
+    background-color: #eee !important;
+    color: #691a14 !important;
+    transition: .2s;
+
+}
+input[type=email]:focus {
+    background-color: #eee !important;
+    color: #691a14 !important;
+    transition: .2s;
+}
+
+textarea {
+    width: 100%;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border-bottom: 1px black solid !important;
+}
+
+textarea:focus {
+    background-color: #eee !important;
+    color: #691a14 !important;
+    transition: .2s;
+
+}
+
+.work-nav li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    color: #aaa;
+
 }
 
 /*
@@ -190,6 +242,30 @@ a:hover {
     max-width: 100%;
 }
 
+.big-number {
+    font-size: 4rem;
+    padding-top: 10px;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+#portfolio-text {
+    font-family: "Lato" !important;
+}
+
+.work-info {
+    font-size: .7rem !important;
+    font-family: "Lato";
+    text-transform: uppercase;
+    line-height: 14px;
+}
+
+.work-summary {
+    font-size: .9rem !important;
+    font-family: "Lato";
+    line-height: 20px;
+}
+
 .dont-click {
     user-select: none;
     -moz-user-select: none;
@@ -237,7 +313,11 @@ a:hover {
     color: #f8f3e6;
     background-color: black !important;
     width: 100%;
-    z-index: 3;
+    height: 3em !important;
+    z-index: 1;
+    bottom: 0 !important;
+    left: 0;
+    position: static !important;
 }
 
 .footer h3 {
@@ -259,38 +339,14 @@ a:hover {
     text-shadow: 3px 3px #691a14;
 }
 
-/* Backgrounds will cover all the section
-	* --------------------------------------- */
-
-.slide {
-    width: 100%;
-    padding-bottom: 100px;
-}
-
+/*
 #fullpage {
-    z-index: -2;
+    z-index: -1;
     background-color: #f8f3e6 !important;
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") !important;
     color: #2e2e2e;
 }
-/*
-#section1 {
-    background-color: #f8f3e6;
-    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
-    color: #2e2e2e;
-}
-
-#section2 {
-    background-color: #f8f3e6;
-    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
-}
-
-#contact {
-    z-index: 1;
-    background-color: #f8f3e6;
-    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
-    color: #2e2e2e;
-}*/
+*/
 
 /* Responsive Sections
     * --------------------------------------- */
