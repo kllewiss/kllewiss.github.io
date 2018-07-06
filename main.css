@@ -56,10 +56,17 @@ nav a {
 
 #contact-form {
     display: block;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
-input {
+.submit-button {
+    background-color: #aaa !important;
+    font-size: 1rem;
+    max-width: 50%;
+    justify-content: center;
+}
+
+.field, input[type=text], input[type=email] {
     width: 100%;
     background: transparent !important;
     border: none !important;
