@@ -76,13 +76,106 @@
             <img class="dont-click" src="work-logo.png">
         </div>
         <div class="columns is-centered">
-            <ul class="work-nav">
-                <li class="active">web design</li>
-                <li>ui design</li>
-                <li>front-end development</li>
-            </ul>
+            <div class="tab">
+                <ul id="work-nav" class="work-nav">
+                    <li class="tablinks" onclick="openWork(event, 'webDesign')">web design</li>
+                    <li id="defaultOpen" class="tablinks defaultOpen" onclick="openWork(event, 'uiDesign')">ui design</li>
+                    <li class="tablinks" onclick="openWork(event, 'frontEnd')">front-end development</li>
+                </ul>
+            </div>
         </div>
 
+        <div id="webDesign" class="tabcontent">
+            <!--Row 1-->
+            <div class="columns is-centered">
+                <div class="portfolio-item column is-one-half">
+                    <div id="vine">
+                        <a href="./vinegainesville.html">
+                            <picture class="enlarge screens">
+                                <img src="vine-screens.png" alt="Vine Sourdough Bakery Header">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item column is-one-half">
+                    <div id="portfolio-text">
+                        <h1 class="big-number">01</h1>
+                        <p class="work-info">
+                            <em>
+                                <strong>Work Dates</strong>
+                            </em>
+                            <br> June 2016 - August 2017
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Client</em>
+                            </strong>
+                            <br> Vine Sourdough Bakery
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Service Provided</em>
+                            </strong>
+                            <br> Web design/Social media management
+                        </p>
+                        <p class="work-summary">
+                            This website was created for an organic sourdough bakery in Gainesville, FL. When I first met with one of the co-owners,
+                            we discussed their needs for their new website. At the time, they were using a free Wordpress
+                            blog to showcase events, but had no online menu or information about the business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Row 2-->
+            <div class="columns is-centered">
+                <div class="portfolio-item column is-one-half">
+                    <div class="has-text-right" id="portfolio-text">
+                        <h1 class="big-number">02</h1>
+                        <p class="work-info">
+                            <em>
+                                <strong>Work Dates</strong>
+                            </em>
+                            <br> August 2017 - now
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Client</em>
+                            </strong>
+                            <br> Wide Island View
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Service Provided</em>
+                            </strong>
+                            <br> Web design/Social media management
+                        </p>
+                        <p class="work-summary">
+                            This webzine was created by and for a group of JET Program participants in Hiroshima, Japan. The JET Program employs native
+                            English speakers from all over the world to come to Japan and share their language and culture
+                            with Japanese youth. My greatest hurdle to overcome with this website was the amount of content
+                            displayed and how to present it in an accessible manner.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item column is-one-half">
+                    <div id="wiv">
+                        <a href="./wideislandview.html">
+                            <picture class="enlarge screens">
+                                <img src="wiv-screens.png" alt="Wide Island View Header">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="uiDesign" class="tabcontent">
         <!--Row 1-->
         <div class="columns is-centered">
             <div class="portfolio-item column is-one-half">
@@ -166,8 +259,10 @@
                 </div>
             </div>
         </div>
-
     </div>
+    </div>
+
+
 
     <div id="about">
         <div class="columns is-centered">
@@ -189,7 +284,7 @@
                         <p class="heading">2000</p>
                         <p>discovered the pc game called “powerpoint,”
                             <br>spent many hours designing with it for no reason</p>
-                            <p>also dabbled in a little ms paint</p>
+                        <p>also dabbled in a little ms paint</p>
                     </li>
                     <li class="event" style="text-align: right;">
                         <p class="heading">2008</p>
@@ -200,7 +295,7 @@
                     <li class="event" style="text-align: left;">
                         <p class="heading">2010</p>
                         <p>
-                            became a big fan of chiptune 
+                            became a big fan of chiptune
                             <br> and low-key mastered the art of tetris</p>
                     </li>
                     <li class="event" style="text-align: right;">
@@ -296,9 +391,34 @@
 
 </html>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    function openWork(evt, workType) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
 
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(workType).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Popper JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
