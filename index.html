@@ -78,8 +78,8 @@
         <div class="columns is-centered">
             <div class="tab">
                 <ul id="work-nav" class="work-nav">
-                    <li class="tablinks" onclick="openWork(event, 'webDesign')">web design</li>
-                    <li id="defaultOpen" class="tablinks defaultOpen" onclick="openWork(event, 'uiDesign')">ui design</li>
+                    <li class="tablinks" onclick="openWork(event, 'webDesign')">website design</li>
+                    <li id="defaultOpen" class="tablinks defaultOpen" onclick="openWork(event, 'uiDesign')">ui/ux design</li>
                     <li class="tablinks" onclick="openWork(event, 'frontEnd')">front-end development</li>
                 </ul>
             </div>
@@ -407,15 +407,14 @@
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
-        
+
         // Show the current tab, and add an "active" class to the button that opened the tab
         document.getElementById(workType).style.display = "block";
         evt.currentTarget.className += " active";
     }
 
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
 </script>
 
 
