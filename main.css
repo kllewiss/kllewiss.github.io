@@ -148,6 +148,19 @@ a:hover {
 
 /* About Section Styles */
 
+#about {
+    padding-top: 50px;
+}
+
+#about .me {
+    max-width: 200px;
+}
+
+#about h3 {
+    font-size: 1.5rem;
+    color: #691a14;
+    text-transform: uppercase;
+}
 .emoji {
     max-width: 30px;
     max-height: 30px;
