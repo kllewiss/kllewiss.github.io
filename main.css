@@ -70,18 +70,18 @@ input[type=email] {
     border: none !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    border-bottom: 1px black solid !important;
+    border-bottom: .2px black solid !important;
 }
 
 input[type=text]:focus {
-    background-color: #fff !important;
-    color: #691a14 !important;
+    background-color: #691a14 !important;
+    color: #fff !important;
     transition: .2s;
 }
 
 input[type=email]:focus {
-    background-color: #fff !important;
-    color: #691a14 !important;
+    background-color: #691a14 !important;
+    color: #fff !important;
     transition: .2s;
 }
 
@@ -91,12 +91,11 @@ textarea {
     border: none !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    border-bottom: 1px black solid !important;
 }
 
 textarea:focus {
-    background-color: #fff !important;
-    color: #691a14 !important;
+    background-color: #691a14 !important;
+    color: #fff !important;
     transition: .2s;
 }
 
