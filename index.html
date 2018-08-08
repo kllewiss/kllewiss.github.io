@@ -78,9 +78,9 @@
         <div class="columns is-centered">
             <div class="tab">
                 <ul id="work-nav" class="work-nav">
-                    <li class="tablinks" onclick="openWork(event, 'webDesign')">website design</li>
-                    <li id="defaultOpen" class="tablinks defaultOpen" onclick="openWork(event, 'uiDesign')">ui/ux design</li>
-                    <li class="tablinks" onclick="openWork(event, 'frontEnd')">front-end development</li>
+                    <li class="tablinks" onclick="openWork(event, 'webDesign')">websites</li>
+                    <li id="defaultOpen" class="tablinks defaultOpen" onclick="openWork(event, 'uiDesign')">mobile apps</li>
+                    <li class="tablinks" onclick="openWork(event, 'gameDesign')">games</li>
                 </ul>
             </div>
         </div>
@@ -257,8 +257,97 @@
             </div>
         </div>
     </div>
+
     </div>
 
+    <div id="gameDesign" class="tabcontent">
+        <!--Row 1-->
+        <div class="columns is-centered">
+            <div class="portfolio-item column is-one-half">
+                <div id="vine">
+                    <a href="./vinegainesville.html">
+                        <picture class="enlarge screens">
+                            <img src="vine-screens.png" alt="Vine Sourdough Bakery Header">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-item column is-one-half">
+                <div id="portfolio-text">
+                    <h1 class="big-number">01</h1>
+                    <p class="work-info">
+                        <em>
+                            <strong>Work Dates</strong>
+                        </em>
+                        <br> June 2016 - August 2017
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Client</em>
+                        </strong>
+                        <br> Vine Sourdough Bakery
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Service Provided</em>
+                        </strong>
+                        <br> Web design/Social media management
+                    </p>
+                    <p class="work-summary">
+                        This website was created for an organic sourdough bakery in Gainesville, FL. When I first met with one of the co-owners,
+                        we discussed their needs for their new website. At the time, they were using a free Wordpress
+                        blog to showcase events, but had no online menu or information about the business.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Row 2-->
+        <div class="columns is-centered">
+            <div class="portfolio-item column is-one-half">
+                <div class="has-text-right" id="portfolio-text">
+                    <h1 class="big-number">02</h1>
+                    <p class="work-info">
+                        <em>
+                            <strong>Work Dates</strong>
+                        </em>
+                        <br> August 2017 - now
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Client</em>
+                        </strong>
+                        <br> Wide Island View
+                        <br>
+                        <br>
+                        <em>
+                            <strong>Service Provided</em>
+                        </strong>
+                        <br> Web design/Social media management
+                    </p>
+                    <p class="work-summary">
+                        This webzine was created by and for a group of JET Program participants in Hiroshima, Japan. The JET Program employs native
+                        English speakers from all over the world to come to Japan and share their language and culture
+                        with Japanese youth. My greatest hurdle to overcome with this website was the amount of content
+                        displayed and how to present it in an accessible manner.
+                    </p>
+                </div>
+            </div>
+
+            <div class="portfolio-item column is-one-half">
+                <div id="wiv">
+                    <a href="./wideislandview.html">
+                        <picture class="enlarge screens">
+                            <img src="wiv-screens.png" alt="Wide Island View Header">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 
     <div id="about">
@@ -380,6 +469,11 @@
 
 </html>
 
+
+<!-- Popper JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+
 <script>
     function openWork(evt, workType) {
         // Declare all variables
@@ -455,6 +549,3 @@ document.querySelector('#portfolio').scrollIntoView({
           });
         });
         </script>
-
-<!-- Popper JS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
