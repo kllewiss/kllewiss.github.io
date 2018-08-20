@@ -26,7 +26,10 @@
 
     <!-- Latest Burma CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
 
+    </script>
 </head>
 
 <body id="fullpage">
@@ -201,7 +204,7 @@
                         <em>
                             <strong>Client</em>
                         </strong>
-                        <br> Personal Work 
+                        <br> Personal Work
                         <br>
                         <br>
                         <em>
@@ -211,7 +214,8 @@
                     </p>
                     <br>
                     <p class="work-summary">
-                        This app was created as UI/UX practice. I went through a long process of UX theory and testing, so please check out the project page to learn more.
+                        This app was created as UI/UX practice. I went through a long process of UX theory and testing, so please check out the project
+                        page to learn more.
                     </p>
                 </div>
             </div>
@@ -241,7 +245,8 @@
                     </p>
                     <br>
                     <p class="work-summary">
-                        This was designed for a pizza delivery website. To learn more about my thought process while creating this, please view the project page. 
+                        This was designed for a pizza delivery website. To learn more about my thought process while creating this, please view the
+                        project page.
                     </p>
                 </div>
             </div>
@@ -296,8 +301,8 @@
                     </p>
                     <p class="work-summary">
                         This website was created for an organic sourdough bakery in Gainesville, FL. When I first met with one of the co-owners,
-                        we discussed their needs for their new website. At the time, they were using a free Wordpress
-                        blog to showcase events, but had no online menu or information about the business.
+                        we discussed their needs for their new website. At the time, they were using a free Wordpress blog
+                        to showcase events, but had no online menu or information about the business.
                     </p>
                 </div>
             </div>
@@ -328,9 +333,9 @@
                     </p>
                     <p class="work-summary">
                         This webzine was created by and for a group of JET Program participants in Hiroshima, Japan. The JET Program employs native
-                        English speakers from all over the world to come to Japan and share their language and culture
-                        with Japanese youth. My greatest hurdle to overcome with this website was the amount of content
-                        displayed and how to present it in an accessible manner.
+                        English speakers from all over the world to come to Japan and share their language and culture with
+                        Japanese youth. My greatest hurdle to overcome with this website was the amount of content displayed
+                        and how to present it in an accessible manner.
                     </p>
                 </div>
             </div>
@@ -347,16 +352,28 @@
         </div>
 
     </div>
-</div>
-
+    </div>
 
     <div id="about">
         <div class="columns is-centered">
-            <img class="dont-click" src="about-me.png">
+            <img style="padding-top: 50px;" class="dont-click" src="about-me.png">
         </div>
         <div class="columns">
             <div class="column is-centered">
-                
+                <h3>I'm endlessly curious and incredibly passionate about design and technology.</h3>
+                <br>
+
+                <h4>My first job out of high school was as a graphic/web designer for a local freelance web developer
+                    <br>and despite getting a degree in Linguistics, I've returned to my web design roots.</h4>
+                <br>
+
+                <h4>Right now, I'm living and working in Hiroshima, Japan.
+                    <br>I currently work as an assistant language teacher in a high school.</h4>
+                <br>
+
+                <h4>When I'm not sharpening my skills,
+                    <br>I'm probably gaming with my other half and/or enjoying a nice glass of wine.</h4>
+
             </div>
         </div>
     </div>
@@ -365,7 +382,7 @@
         <div class="container columns is-centered">
             <img class="dont-click" src="contact-logo.png">
         </div>
-        
+
         <!---
         <div class="columns is-centered">
             <div class="column">
@@ -388,8 +405,8 @@
             </div>
         </div>-->
         <div class="columns is-centered">
-                <div id="contact-form" class="column is-two-thirds">
-                        <form action="https://formspree.io/kllewis352@gmail.com" method="POST">
+            <div id="contact-form" class="column is-two-thirds">
+                <form action="https://formspree.io/kllewis352@gmail.com" method="POST">
                     <div class="field">
                         <div class="control">
                             <input class="input" type="text" placeholder="Name">
@@ -407,7 +424,7 @@
                     </div>
                     <input class="button is-outlined is-dark" type="submit" value="Send">
                 </form>
-                </div>
+            </div>
         </div>
 
 
@@ -452,50 +469,50 @@
 
 <script>
     // Scroll to specific values
-// scrollTo is the same
-window.scroll({
-  top: 2500, 
-  left: 0, 
-  behavior: 'smooth' 
-});
+    // scrollTo is the same
+    window.scroll({
+        top: 2500,
+        left: 0,
+        behavior: 'smooth'
+    });
 
-// Scroll certain amounts from current position 
-window.scrollBy({ 
-  top: 100, // could be negative value
-  left: 0, 
-  behavior: 'smooth' 
-});
+    // Scroll certain amounts from current position 
+    window.scrollBy({
+        top: 100, // could be negative value
+        left: 0,
+        behavior: 'smooth'
+    });
 
-// Scroll to a certain element
-document.querySelector('#portfolio').scrollIntoView({ 
-  behavior: 'smooth' 
-});
+    // Scroll to a certain element
+    document.querySelector('#portfolio').scrollIntoView({
+        behavior: 'smooth'
+    });
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $("a").on('click', function(event) {
-        
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-        
-              // Store hash
-              var hash = this.hash;
-        
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-           
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
             } // End if
-          });
         });
-        </script>
+    });
+</script>

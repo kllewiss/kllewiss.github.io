@@ -4,11 +4,13 @@ body {
 }
 
 .hero {
+    height: 100vh !important;
     z-index: -2;
     background-color: #f8f3e6 !important;
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") !important;
     color: #2e2e2e;
 }
+
 
 .i {
     background-color: transparent;
@@ -27,6 +29,7 @@ body {
   
   #tab-content div.is-active {
     display: block;
+    transition: 1s !important;
   }
 
   #tabs a {
@@ -40,26 +43,34 @@ body {
 /* end */  
 
 .navbar {
-    background: black !important;
+    background: transparent !important;
     padding: 10px 10px;
     line-height: 20px;
     max-height: 50px;
     display: inline;
 }
 
+.navbar .active {
+    color: #2e2e2e !important;
+    border-bottom: 1px solid black;
+}
+
 .navbar-item {
+    color: gray !important;
     background: transparent !important;
-    color: #eee !important;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-transform: uppercase;
     font-size: .80rem;
+    margin-right: 20px;
+    border-bottom: .5px solid gray;
+
 }
 
 .navbar-item:hover {
-    background: #eee !important;
+    background: #fff !important;
     color: black !important;
-    border-radius: 5px;
-    transition: .5s !important;
+    transition: 1s !important;
+    border-bottom: .5px solid #eee;
 }
 
 .portfolio-nav {
@@ -178,6 +189,7 @@ h1 {
 }
 
 .portfolio-section {
+    min-height: 100vh !important;
     color: #2e2e2e;
     padding: 30px 60px;
 }
