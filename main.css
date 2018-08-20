@@ -165,9 +165,8 @@ a:hover {
 #about h3 {
     font-size: 1.5rem;
     color: #691a14;
-    text-transform: uppercase;
     text-align: center;
-    font-style: italic;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -268,7 +267,7 @@ a:hover {
 }
 
 .big-number {
-    font-size: 4rem;
+    font-size: 3rem;
     padding-top: 10px;
     font-family: "Lato";
     font-weight: 400;
