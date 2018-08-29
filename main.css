@@ -20,15 +20,32 @@ body {
 
 #contact {
     padding-top: 100px;
-        /* The image used */
-        background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
+    /* The image used */
+    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
 }
 
 @font-face {
     font-family: "signatureFont";
-    src:url('5th-grade-cursive/5thgradecursive-2.ttf')
+    src: url('5th-grade-cursive/5thgradecursive-2.ttf')
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #2e2e2e;
+    line-height: 40px;
+    font-size: .8em;
+    text-align: center;
+    bottom: 0;
 }
 
 p {
@@ -100,7 +117,7 @@ input[type=email]:focus {
 }
 
 textarea {
-    width: 100%;    
+    width: 100%;
     -webkit-filter: drop-shadow(1px 1px 1px #2e2e2e);
     filter: drop-shadow(1px 1px 1px #2e2e2e);
     border-radius: 0px !important;
@@ -127,9 +144,7 @@ a:hover {
     text-decoration: none !important;
     color: #000 !important;
 }*/
-
 /* Button Styles */
-
 .btn {
     opacity: .5;
 }
@@ -139,7 +154,6 @@ a:hover {
 }
 
 /* About Section Styles */
-
 .flowers {
     position: absolute;
     z-index: 1;
@@ -160,7 +174,6 @@ a:hover {
 }
 
 /* About Section Styles */
-
 #about {
     padding-top: 150px;
 }
@@ -174,7 +187,6 @@ a:hover {
     color: #691a14;
     text-align: center;
     font-family: 'Lato', sans-serif;
-
 }
 
 .emoji {
@@ -193,7 +205,6 @@ a:hover {
 }
 
 /* General Section Styles */
-
 .icons a {
     padding-right: 50px;
     font-size: 2rem;
@@ -310,7 +321,6 @@ a:hover {
 }
 
 /* Hover Styles */
-
 .screens {
     -webkit-filter: drop-shadow(2px 2px 2px gray);
     filter: drop-shadow(2px 2px 2px gray);
@@ -334,7 +344,6 @@ a:hover {
 }
 
 /*Footer Styles*/
-
 .footer {
     color: #f8f3e6;
     background-color: black !important;
@@ -357,8 +366,6 @@ a:hover {
     padding: 10px;
 }
 
-
-
 #contact h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -375,36 +382,40 @@ a:hover {
     color: #2e2e2e;
 }
 */
-
 /* Responsive Sections
     * --------------------------------------- */
-
 @media screen and (max-width: 1020px) {
     .flowers {
         height: 100%;
         margin-top: -500px;
         z-index: 1;
     }
+
     #home h3,
     h1,
     p {
         text-align: center !important;
         justify-content: center;
     }
+
     #home {
         margin: 0 auto;
         z-index: 6;
     }
+
     .about-image {
         margin: 0 auto;
     }
+
     .logoName h1 {
         font-size: 4em;
     }
+
     .main-container {
         margin: 0 auto !important;
         padding: 0 0;
     }
+
     .main-container h3,
     p {
         font-size: 1em;
@@ -512,7 +523,6 @@ a:hover {
 }
 
 /*experimental code*/
-
 h1 {
     font-size: 50px;
     word-break: break-all;
@@ -523,21 +533,18 @@ h1 {
 }
 
 /* Add padding BETWEEN each column (if you want) */
-
 .row,
 .row>.column {
     padding: 8px;
 }
 
 /* Create four equal columns that floats next to each other */
-
 .column {
     float: left;
     width: 25%;
 }
 
 /* Clear floats after rows */
-
 .row:after {
     content: "";
     display: table;
@@ -545,7 +552,6 @@ h1 {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
@@ -553,7 +559,6 @@ h1 {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
@@ -561,13 +566,11 @@ h1 {
 }
 
 /*tab display content*/
-
 .tab {
     overflow: hidden;
 }
 
 /* Style the buttons that are used to open the tab content */
-
 .tab li {
     background-color: inherit;
     float: left;
@@ -578,19 +581,16 @@ h1 {
 }
 
 /* Change background color of buttons on hover */
-
 .tab li:hover {
     border-top: 1px solid #aaa;
 }
 
 /* Create an active/current tablink class */
-
 .tab li.active {
     color: #2e2e2e;
 }
 
 /* Style the tab content */
-
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -603,11 +603,11 @@ h1 {
 }
 
 /* Go from zero to full opacity */
-
 @keyframes fadeEffect {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
