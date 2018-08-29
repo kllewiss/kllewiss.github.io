@@ -64,10 +64,10 @@ body {
 
 }
 
-.navbar-item a:hover {
-    background: gray !important;
+.navbar a:hover {
     color: #691a14 !important;
-    transition: 1s !important;
+    border-top: 1px solid gray;
+    transition: 2s !important;
 }
 
 .portfolio-nav {
