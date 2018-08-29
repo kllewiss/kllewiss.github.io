@@ -18,6 +18,19 @@ body {
     height: 100vh !important;
 }
 
+#contact {
+    padding-top: 100px;
+        /* The image used */
+        background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "signatureFont";
+    src:url('5th-grade-cursive/5thgradecursive-2.ttf')
+}
+
 p {
     font-family: 'Lato', serif;
     size: 1rem;
@@ -71,36 +84,28 @@ nav a {
 input[type=text],
 input[type=email] {
     width: 100%;
-    background: transparent !important;
-    border: none !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    border-bottom: .2px black solid !important;
+    border: 1px #2e2e2e solid !important;
+    border-radius: 0px !important;
 }
 
 input[type=text]:focus {
-    background-color: #691a14 !important;
-    color: #fff !important;
+    color: #000 !important;
     transition: .2s;
 }
 
 input[type=email]:focus {
-    background-color: #691a14 !important;
-    color: #fff !important;
+    color: #000 !important;
     transition: .2s;
 }
 
 textarea {
     width: 100%;
-    background: transparent !important;
-    border: none !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
+    border-radius: 0px !important;
+    border: 1px #2e2e2e solid !important;
 }
 
 textarea:focus {
-    background-color: #691a14 !important;
-    color: #fff !important;
+    color: #000 !important;
     transition: .2s;
 }
 
@@ -155,14 +160,14 @@ a:hover {
 /* About Section Styles */
 
 #about {
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 #about .me {
     max-width: 200px;
 }
 
-#about h3 {
+#about h4 {
     font-size: 1.5rem;
     color: #691a14;
     text-align: center;
@@ -239,26 +244,21 @@ a:hover {
 }
 
 .logoName h1 {
-    padding: 0 50px;
+    padding-top: 200px;
     margin: 0 auto;
     font-size: 100px;
-    justify-content: center;
-    font-family: "Lato", serif;
-    font-weight: 700;
-    line-height: -50px;
+    font-family: "signatureFont" !important;
     color: #691a14;
     text-shadow: 3px 3px #f8f3e6;
 }
 
 .logoName h3 {
+    padding-bottom: 50px;
     margin: 0 auto;
-    padding: 0 70px;
-    font-size: 1.5em;
-    justify-content: center;
-    font-family: "Lato", serif;
-    font-weight: 400;
+    font-size: 70px;
+    font-family: "signatureFont" !important;
     color: #691a14;
-    text-shadow: 2px 2px #f8f3e6;
+    text-shadow: 3px 3px #f8f3e6;
 }
 
 .logoName img {
@@ -354,6 +354,8 @@ a:hover {
     max-height: 75px;
     padding: 10px;
 }
+
+
 
 #contact h1 {
     font-family: 'Lato', sans-serif;
@@ -576,13 +578,12 @@ h1 {
 /* Change background color of buttons on hover */
 
 .tab li:hover {
-    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
 }
 
 /* Create an active/current tablink class */
 
 .tab li.active {
-    border-bottom: 1px solid black;
     color: #2e2e2e;
 }
 

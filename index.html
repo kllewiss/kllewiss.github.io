@@ -23,7 +23,6 @@
 
     <!--Link to fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Meddon" rel="stylesheet">
 
     <!-- Latest Burma CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
@@ -33,18 +32,16 @@
 </head>
 
 <body id="fullpage">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
         </div>
 
         <div class="navbar-menu nav-right" id="navMenu">
             <div class="navbar-end">
-                <a class="navbar-item" href="#home">Home</a>
+                <a class="navbar-item active" href="#home">Home</a>
                 <a class="navbar-item" href="#portfolio">Projects</a>
                 <a class="navbar-item" href="#about">About</a>
                 <a class="navbar-item" href="#contact">Contact</a>
@@ -52,10 +49,11 @@
         </div>
     </nav>
 
-    <div class="section" id="home">
+    <div class="scroll-section" id="home">
         <div class="container text-left">
             <div class="logoName">
-                <img class="animate-reveal animate-first dont-click" src="kl-logo.png">
+              <!--  <img class="animate-reveal animate-first dont-click" src="kl-logo.png">  -->
+              <h1 class="logoName">kristen lewis</h1>
             </div>
             <div class="main-container">
                 <div class="container columns animate-reveal animate-second">
@@ -72,12 +70,17 @@
                 <img class="dont-click flowers animate-first" src="8.png">
             </div>
         </div>
-        
+
     </div>
-    <div style="margin-top: -150px; height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 350.85,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
-    <div id="portfolio" class="portfolio">
-        <div class="portfolio-main columns is-centered">
-            <img class="dont-click" src="work-logo.png">
+    <div style="margin-top: -150px; height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 350.85,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path>
+            </svg>
+    </div>
+    <div id="portfolio" class="portfolio scroll-section">
+        <div class="portfolio-main logoName columns is-centered">
+          <!--  <img class="dont-click" src="work-logo.png"> -->
+          <h3>Work</h3>
         </div>
         <div class="columns is-centered">
             <div class="tab">
@@ -310,58 +313,44 @@
     </div>
 
 
-    <div id="about">
-        <div class="columns is-centered">
-            <img style="padding-top: 50px;" class="dont-click" src="about-me.png">
+    <div id="about" class="scroll-section section">
+        <div class="columns is-centered logoName">
+           <!-- <img style="padding-top: 50px;" class="dont-click" src="about-me.png"> -->
+           <h3>About me</h3>
         </div>
         <div class="columns">
-            <div class="column is-centered">
-                <h3>I'm endlessly curious
+            <div class="column has-text-centered">
+                <h4>I'm endlessly curious
                     <br>and incredibly passionate
-                    <br>about design and technology.</h3>
+                    <br>about design and technology.</h4>
                 <br>
 
-                <h4>My first job out of high school was as a graphic/web designer for a local freelance web developer
-                    <br>and despite getting a degree in Linguistics, I've returned to my web design roots.</h4>
+                <p>My first job out of high school was as a graphic/web designer for a local freelance web developer
+                    <br>and despite getting a degree in Linguistics, I've returned to my web design roots.</p>
                 <br>
 
-                <h4>Right now, I'm living and working in Hiroshima, Japan
-                    <br>as an assistant language teacher in a high school.</h4>
+                <p>Right now, I'm living and working in Hiroshima, Japan
+                    <br>as an assistant language teacher in a high school.</p>
                 <br>
 
-                <h4>When I'm not sharpening my skills,
-                    <br>I'm probably gaming with my other half and/or enjoying a nice glass of wine.</h4>
+                <p>When I'm not sharpening my skills,
+                    <br>I'm probably gaming with my other half and/or enjoying a nice glass of wine.</p>
 
             </div>
         </div>
     </div>
-
-    <div class="section is-centered" id="contact">
-        <div class="container columns is-centered">
-            <img class="dont-click" src="contact-logo.png">
+    <div style="margin-bottom: -150px; height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 350.88,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: white;"></path>
+            </svg>
+    </div>
+    <div class="scroll-section section" id="contact">
+        <div class="container columns has-text-centered">
+            <div style="margin-top: 150px;" class="logoName column">
+            <!--<img class="dont-click" src="contact-logo.png">-->
+            <h3>Contact</h3><br>
         </div>
-
-        <!---
-        <div class="columns is-centered">
-            <div class="column">
-            <a href="https://www.youtube.com/channel/UCSXCv3aGbhfhdbIv3_dsLeA?view_as=subscriber" target="_blank">
-                <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/youtube2-256.png"
-                    alt="Youtube">
-            </a>
-            <a href="http://www.twitter.com/poiikaer" target="_blank">
-                <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/twitter-256.png" alt="Twitter">
-            </a>
-            <a href="http://www.instagram.com/poikaer" target="_blank">
-                <img class="enlarge contact-icon" src="https://cdn3.iconfinder.com/data/icons/social-circle/512/social_6-256.png" alt="Instagram">
-            </a>
-            <a href="https://github.com/kllewiss" target="_blank">
-                <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-256.png" alt="Github">
-                <a href="https://www.linkedin.com/in/kristen-lewis-2282ab150/" target="_blank">
-                    <img class="enlarge contact-icon" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/linkedin-512.png"
-                        alt="Linkedin">
-                </a>
-            </div>
-        </div>-->
+        </div>
         <div class="columns is-centered">
             <div id="contact-form" class="column is-two-thirds">
                 <form action="https://formspree.io/kllewis352@gmail.com" method="POST">
@@ -380,7 +369,9 @@
                             <textarea class="textarea" placeholder="Type your message here"></textarea>
                         </div>
                     </div>
-                    <input class="button is-outlined is-dark" type="submit" value="Send">
+                    <div class="has-text-centered">
+                    <input class="button is-outlined is-dark is-centered" type="submit" value="Send">
+                    </div>                                        
                 </form>
             </div>
         </div>
@@ -425,6 +416,7 @@
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 </script>
+
 <script>
     $(document).ready(function () {
         // Add smooth scrolling to all links
@@ -450,4 +442,41 @@
             } // End if
         });
     });
+
+
+    $(document).ready(function() {
+		$('a[href*=#]').bind('click', function(e) {
+				e.preventDefault(); // prevent hard jump, the default behavior
+
+				var target = $(this).attr("href"); // Set the target as variable
+
+				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+				$('html, body').stop().animate({
+						scrollTop: $(target).offset().top
+				}, 600, function() {
+						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+				});
+
+				return false;
+		});
+});
+
+$(window).scroll(function() {
+		var scrollDistance = $(window).scrollTop();
+
+		// Show/hide menu on scroll
+		//if (scrollDistance >= 850) {
+		//		$('nav').fadeIn("fast");
+		//} else {
+		//		$('nav').fadeOut("fast");
+		//}
+	
+		// Assign active class to nav links while scolling
+		$('.scroll-section').each(function(i) {
+				if ($(this).position().top <= scrollDistance) {
+						$('.navbar-menu a.active').removeClass('active');
+						$('.navbar-menu a').eq(i).addClass('active');
+				}
+		});
+}).scroll();
 </script>

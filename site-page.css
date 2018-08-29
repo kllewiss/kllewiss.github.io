@@ -45,32 +45,29 @@ body {
 .navbar {
     background: transparent !important;
     padding: 10px 10px;
-    line-height: 20px;
-    max-height: 50px;
+    line-height: 15px;
+    max-height: 20px;
     display: inline;
 }
 
-.navbar .active {
+.active {
+    background: #fff !important;
     color: #2e2e2e !important;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black !important;
 }
 
 .navbar-item {
-    color: gray !important;
-    background: transparent !important;
-    padding: 20px 20px;
+    color: gray;
     text-transform: uppercase;
     font-size: .80rem;
     margin-right: 20px;
-    border-bottom: .5px solid gray;
 
 }
 
-.navbar-item:hover {
-    background: #fff !important;
-    color: black !important;
+.navbar-item a:hover {
+    background: gray !important;
+    color: #691a14 !important;
     transition: 1s !important;
-    border-bottom: .5px solid #eee;
 }
 
 .portfolio-nav {
