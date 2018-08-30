@@ -94,9 +94,8 @@ nav a {
 input[type=text],
 input[type=email] {
     width: 100%;
-    -webkit-filter: drop-shadow(1px 1px 1px #2e2e2e);
-    filter: drop-shadow(1px 1px 1px #2e2e2e);
-    border-radius: 0px !important;
+    box-shadow:0px 2px 3px #BBB7BD;
+    border-radius: 5px !important;
 }
 
 input[type=text]:focus {
@@ -111,9 +110,8 @@ input[type=email]:focus {
 
 textarea {
     width: 100%;
-    -webkit-filter: drop-shadow(1px 1px 1px #2e2e2e);
-    filter: drop-shadow(1px 1px 1px #2e2e2e);
-    border-radius: 0px !important;
+    box-shadow: 0px 2px 3px #BBB7BD;
+    border-radius: 5px !important;
 }
 
 textarea:focus {
