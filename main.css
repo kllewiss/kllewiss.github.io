@@ -27,11 +27,11 @@ body {
 #things h1 {
     font-size: 2rem;
     font-family: "signatureFont" !important;
-    padding: 50px;
+    padding: 100px;
 }
 
 #things {
-    padding: 100px 100px;
+    padding: 30px 30px;
 }
 
 #contact {
