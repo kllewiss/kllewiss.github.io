@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: "signatureFont";
+    src: url('5th-grade-cursive/5thgradecursive-2.ttf')
+}
+
 header {
     width: 100%;
 }
@@ -18,6 +24,16 @@ body {
     height: 100vh !important;
 }
 
+#things h1 {
+    font-size: 2rem;
+    font-family: "signatureFont" !important;
+    padding: 50px;
+}
+
+#things {
+    padding: 100px 100px;
+}
+
 #contact {
     padding-top: 100px;
     /* The image used */
@@ -26,10 +42,6 @@ body {
     background-attachment: fixed;
 }
 
-@font-face {
-    font-family: "signatureFont";
-    src: url('5th-grade-cursive/5thgradecursive-2.ttf')
-}
 
 footer {
     position: relative;
