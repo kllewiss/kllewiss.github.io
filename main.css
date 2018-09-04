@@ -16,12 +16,9 @@ body {
     height: 100vh !important;
     /* The image used */
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+    background-color: #f8f3e6;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-}
-
-#about {
-    height: 100vh !important;
 }
 
 #things h1 {
@@ -38,6 +35,8 @@ body {
     padding-top: 100px;
     /* The image used */
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+    background-color: #f8f3e6 !important;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
 }
@@ -140,6 +139,20 @@ textarea:focus {
     color: #aaa;
 }
 
+.icons {
+    font-size: 30px;
+    padding: 30px 20px;
+    color: #d2933b;
+}
+
+hr {
+    background-color: #d2933b !important;
+    width: 100%;
+    margin-top: -50px !important;
+    margin-left: 100px !important;
+    align-content: right;
+}
+
 /* About Section Styles */
 .flowers {
     position: absolute;
@@ -154,6 +167,9 @@ textarea:focus {
 
 #about {
     padding-top: 150px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100%;
 }
 
 #about h4 {
@@ -185,15 +201,14 @@ textarea:focus {
 .logoName h1 {
     padding-top: 200px;
     margin: 0 auto;
-    font-size: 100px;
+    font-size: 5rem;
     font-family: "signatureFont" !important;
     color: #691a14;
     text-shadow: 3px 3px #f8f3e6;
 }
 
 .logoName h3 {
-    padding-bottom: 50px;
-    margin: 0 auto;
+    padding: 30px 30px;
     font-size: 70px;
     font-family: "signatureFont" !important;
     color: #691a14;
@@ -251,25 +266,28 @@ textarea:focus {
 
 /* Hover Styles */
 .screens {
-    -webkit-filter: drop-shadow(2px 2px 2px gray);
-    filter: drop-shadow(2px 2px 2px gray);
+    -webkit-filter: drop-shadow(2px 2px 2px #d9d9d9);
+    filter: drop-shadow(2px 2px 2px #d9d9d9);
 }
 
 .enlarge {
     transition: .2s;
-    margin: 0 auto;
 }
 
 .enlarge:hover {
     transform: scale(1.05);
     text-decoration: none;
-    -webkit-filter: drop-shadow(5px 5px 5px #2e2e2e);
-    filter: drop-shadow(5px 5px 5px #2e2e2e);
+    -webkit-filter: drop-shadow(5px 5px 5px #d9d9d9);
+    filter: drop-shadow(5px 5px 5px #d9d9d9);
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transtition: .2s;
     -webkit-transition: .2s;
     transition: .2s;
+}
+
+.icons:hover {
+    color: #691a14;
 }
 
 #contact h1 {
@@ -292,13 +310,14 @@ textarea:focus {
     #home h3,
     h1,
     p {
-        text-align: center !important;
-        justify-content: center;
+        padding-left: 50px;
     }
 
     #home {
         margin-top: -70px;
         z-index: 6;
+        height: 100vh !important;
+        line-height: 50px;
     }
 
     #portfolio {
@@ -306,9 +325,14 @@ textarea:focus {
         align-content: center;
 
     }
+    
+    .personas {
+        width: 100%;
+    }
 
     .logoName h1 {
         font-size: 4em;
+        padding-left: 30px;
     }
 
     .logoName h3 {
