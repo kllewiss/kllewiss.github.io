@@ -15,6 +15,15 @@ p {
     background-image: none;
     }
 
+.click-me {
+    color: #ab3e16;
+    font-weight: 600;
+}
+
+.click-me:hover {
+    border-bottom: 2px solid #d2933b;
+}
+
 /* tab stuff*/
 #tab-content div {
     display: none;
