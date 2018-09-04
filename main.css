@@ -213,8 +213,10 @@ textarea:focus {
     position: absolute;
 }
 
-#portfolio-text {
+.portfolio-text {
     font-family: "Nunito" !important;
+    max-width: 70%;
+    letter-spacing: .5px;
 }
 
 .work-info {
