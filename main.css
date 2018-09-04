@@ -295,12 +295,8 @@ textarea:focus {
     }
 
     #home {
-        margin: 0 auto;
+        margin-top: -70px;
         z-index: 6;
-    }
-
-    .about-image {
-        margin: 0 auto;
     }
 
     #portfolio {
@@ -311,6 +307,11 @@ textarea:focus {
 
     .logoName h1 {
         font-size: 4em;
+    }
+
+    .logoName h3 {
+        font-size: 3rem;
+        text-align: center;
     }
 
     .main-container {
