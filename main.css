@@ -31,6 +31,13 @@ body {
     padding: 30px 30px;
 }
 
+.image-bg {
+    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+    background-color: #f8f3e6 !important;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+}
+
 #contact {
     padding-top: 100px;
     /* The image used */
