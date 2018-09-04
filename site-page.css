@@ -6,6 +6,9 @@
     color: #2e2e2e;
 }
 
+p {
+    font-family: 'Nunito', sans-serif;
+}
 
 .i {
     background-color: transparent;
