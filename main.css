@@ -279,7 +279,7 @@ textarea:focus {
 }
 
 /* Responsive Sections
-    * --------------------------------------- 
+    * --------------------------------------- */
 @media screen and (max-width: 1020px) {
     .flowers {
         height: 100%;
@@ -301,6 +301,12 @@ textarea:focus {
 
     .about-image {
         margin: 0 auto;
+    }
+
+    #portfolio {
+        text-align: center;
+        align-content: center;
+
     }
 
     .logoName h1 {
@@ -421,6 +427,9 @@ textarea:focus {
 /*tab display content*/
 .tab {
     overflow: hidden;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* Style the buttons that are used to open the tab content */
