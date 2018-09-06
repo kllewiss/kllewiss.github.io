@@ -47,22 +47,23 @@
 
     <div class="scroll-section" id="home">
         <div class="container text-left">
-            <div class="logoName">
-                <h1 class="logoName animate-reveal animate-first">Kristen Lewis</h1>
+            <div class="logoName hidden">
+                <h1 class="logoName">Kristen Lewis</h1>
             </div>
             <div class="main-container">
-                <div class="container columns animate-reveal animate-second">
+                <div class="container columns hidden">
                     <div class="column">
                         <div class="about-1">
                             <h3>
                                 <strong>Hello</strong>, my name is Kristen.
                                 <br> I've been living on the internet since 1994.
-                                <br>I'm an aspiring <span style="color: #d2933b; font-weight: 600;">web</span> and <span style="color:#d2933b; font-weight: 600">UI/UX designer</span>.
+                                <br>I'm an aspiring <span style="color: #d2933b; font-weight: 600;">web</span> and
+                                <span style="color:#d2933b; font-weight: 600">UI/UX designer</span>.
                             </h3>
                         </div>
                     </div>
                 </div>
-                <img class="dont-click flowers animate-reveal animate-third" src="8.png">
+                <img class="dont-click flowers" src="8.png">
             </div>
         </div>
     </div>
@@ -72,7 +73,7 @@
         </svg>
     </div>
     <div id="portfolio" class="portfolio scroll-section">
-        <div class="portfolio-main logoName columns is-centered">
+        <div class="portfolio-main logoName columns is-centered hidden">
             <h3>Work</h3>
         </div>
         <!--
@@ -106,7 +107,7 @@
                 </div>
             </div>
         </section>-->
-        <div class="columns is-centered">
+        <div class="columns is-centered hidden">
             <div class="tab">
                 <ul id="work-nav" class="work-nav">
                     <li class="tablinks" onclick="openWork(event, 'webDesign')">websites</li>
@@ -256,7 +257,7 @@
         </div>
     </div>
 
-    <div id="about" class="scroll-section section">
+    <div id="about" class="scroll-section section hidden">
         <div class="columns is-centered logoName">
             <h3>About me</h3>
         </div>
@@ -266,9 +267,9 @@
                     As a result of this, I feel very connected to technology and the design behind it.</p>
                 <br>
                 <h4 style="color: #d2933b;text-align: center;">I'm endlessly curious
-                        <br>and incredibly passionate
-                        <br>about design and technology.</h4>
-                    <br>
+                    <br>and incredibly passionate
+                    <br>about design and technology.</h4>
+                <br>
                 <p>I am now living in Hiroshima, Japan as an English teacher and I love it!<br>
                     In my down time, I'm often managing two different websites for my fellow expats,<br>
                     or polishing up the code on this portfolio.
@@ -287,21 +288,21 @@
         </div>
     </div>
     <div class="scroll-section section" id="contact">
-        <div style="margin-top: 150px; text-align: center;" class="is-centered container columns logoName">
+        <div style="margin-top: 150px; text-align: center;" class="hidden is-centered container columns logoName">
             <h3>Connect</h3><br>
         </div>
-        <div class="container columns is-centered">
+        <div class="hidden container columns is-centered">
             <i class="icons enlarge fab fa-behance"></i>
-            <i class="icons enlarge fab fa-github-alt"></i> 
-            <i class="icons enlarge fab fa-facebook-f"></i> 
-            <i class="icons enlarge fab fa-linkedin-in"></i> 
+            <i class="icons enlarge fab fa-github-alt"></i>
+            <i class="icons enlarge fab fa-facebook-f"></i>
+            <i class="icons enlarge fab fa-linkedin-in"></i>
         </div>
-        <div class="container columns has-text-centered">
+        <div class="hidden container columns has-text-centered">
             <div class="column">
                 <p>If you're interested in working with me, consider shooting me a message!</p>
             </div>
         </div>
-        <div class="columns is-centered">
+        <div class="hidden columns is-centered">
             <div id="contact-form" class="column is-two-thirds">
                 <form action="https://formspree.io/kllewis352@gmail.com" method="POST">
                     <div class="field">
@@ -427,4 +428,40 @@
             }
         });
     }).scroll();
+</script>
+
+<!--Fade in JS-->
+<script>
+    var animateHTML = function () {
+        var elems;
+        var windowHeight;
+
+        function init() {
+            elems = document.querySelectorAll('.hidden');
+            windowHeight = window.innerHeight;
+            addEventHandlers();
+            checkPosition();
+        }
+
+        function addEventHandlers() {
+            window.addEventListener('scroll', checkPosition);
+            window.addEventListener('resize', init);
+        }
+
+        function checkPosition() {
+            for (var i = 0; i < elems.length; i++) {
+                var positionFromTop = elems[i].getBoundingClientRect().top;
+                if (positionFromTop - windowHeight <= 0) {
+                    elems[i].className = elems[i].className.replace(
+                        'hidden',
+                        'fade-in-element'
+                    );
+                }
+            }
+        }
+        return {
+            init: init
+        };
+    };
+    animateHTML().init();
 </script>
