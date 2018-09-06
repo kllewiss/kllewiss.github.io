@@ -223,10 +223,11 @@ hr {
 }
 
 .big-number {
-    font-size: 3rem;
+    font-size: 30px;
     padding-top: 10px;
+    padding-left: 10px;
     font-family: "Nunito";
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .portfolio-hero-img {
@@ -242,14 +243,14 @@ hr {
 }
 
 .work-info {
-    font-size: .7rem !important;
+    font-size: 14px !important;
     font-family: "Nunito";
-    text-transform: uppercase;
     line-height: 14px;
 }
 
 .work-summary {
-    font-size: .9rem !important;
+    font-size: 16px !important;
+    max-width: 500px;
     font-family: "Nunito";
     line-height: 20px;
 }
