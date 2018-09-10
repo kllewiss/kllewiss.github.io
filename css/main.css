@@ -121,7 +121,7 @@ h5,
 h6 {
     font-family: "Nunito", sans-serif;
     color: #222;
-    line-height: 1.2em !important;
+    line-height: 1em !important;
     margin-bottom: 0;
     margin-top: 0;
     font-weight: 600
@@ -2035,7 +2035,7 @@ nav a:hover {
     opacity: 1
 }
 
-.banner-area {
+#landing  {
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
     background-color: #f8f3e6;
     /* Create the parallax scrolling effect */
