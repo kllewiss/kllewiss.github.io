@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Kristen Lewis Portfolio</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./site-page.css">
+
+
+    <!--Link to fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600" rel="stylesheet">
+
+    <!-- Latest Burma CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+</head>
+
+<body id="fullpage">
+    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="navbar-menu nav-right" id="navMenu">
+            <div class="navbar-end">
+                <a class="navbar-item active" href="#home">Home</a>
+                <a class="navbar-item" href="#portfolio">Projects</a>
+                <a class="navbar-item" href="#about">About</a>
+                <a class="navbar-item" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="scroll-section" id="home">
+        <div class="container text-left">
+            <div class="logoName hidden">
+                <h1 class="logoName">Kristen Lewis</h1>
+            </div>
+            <div class="main-container">
+                <div class="container columns hidden">
+                    <div class="column">
+                        <div class="about-1">
+                            <h3>
+                                <strong>Hello</strong>, my name is Kristen.
+                                <br> I've been living on the internet since 1994.
+                                <br>I'm an aspiring <span style="color: #d2933b; font-weight: 600;">web</span> and
+                                <span style="color:#d2933b; font-weight: 600">UI/UX designer</span>.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <img class="dont-click flowers" src="8.png">
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: -150px; height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 350.85,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path>
+        </svg>
+    </div>
+    <div id="portfolio" class="portfolio scroll-section">
+        <div class="portfolio-main logoName columns is-centered">
+            <h3 class="hidden">Work</h3>
+        </div>
+        <!--
+        <section id="things">
+            <div class="columns is-centered">
+                <div class="portfolio-item column">
+                    <div class="has-text-centered" id="portfolio-text">
+                        <div class="columns is-centered">
+                            <div class="column"></div>
+                            <div class="column">
+                                <img style="max-height: 100px;max-width: 100px;" src="https://freeiconshop.com/wp-content/uploads/edd/html-flat.png">
+                            </div>
+                            <div class="column">
+                                <img style="max-height: 100px;max-width: 100px;" src="https://freeiconshop.com/wp-content/uploads/edd/css-flat.png">
+                            </div>
+                            <div class="column">
+                                <img style="max-height: 100px;max-width: 100px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sketch_logo_frame.svg/2000px-Sketch_logo_frame.svg.png">
+                            </div>
+                            <div class="column">
+                                <img style="max-height: 100px;max-width: 100px;" src="https://cdn.worldvectorlogo.com/logos/figma-1.svg">
+                            </div>
+                            <div class="column">
+                                <img style="max-height: 100px;max-width: 100px;" src="http://www.findthatlogo.com/wp-content/uploads/2011/10/adobe-photoshop-logo.png">
+                            </div>
+                            <div class="column">
+                                <img style="max-height: 100px;max-width: 100px;" src="http://www.pngall.com/wp-content/uploads/2016/05/WordPress-Logo-PNG-HD.png">
+                            </div>
+                            <div class="column"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <div class="columns is-centered hidden">
+            <div class="tab">
+                <ul id="work-nav" class="work-nav">
+                    <li class="tablinks" onclick="openWork(event, 'webDesign')">websites</li>
+                    <li id="defaultOpen" class="tablinks defaultOpen" onclick="openWork(event, 'uiDesign')">mobile apps</li>
+                    <li class="tablinks" onclick="openWork(event, 'gameDesign')">games</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="webDesign" class="tabcontent">
+            <!--Row 1-->
+            <div class="columns is-centered">
+                <div class="portfolio-item column is-one-half">
+                    <div id="vine">
+                        <a href="./vinegainesville.html">
+                            <picture class="enlarge screens">
+                                <img src="vine-screens.png" alt="Vine Sourdough Bakery Header">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item column is-one-half">
+                    <div id="portfolio-text">
+                        <h1 class="big-number">Restaurant Website</h1>
+                        <p class="work-info">
+                            <em>
+                                <strong>Work Dates</strong>
+                            </em>
+                            <br> June 2016 - August 2017
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Client</em>
+                            </strong>
+                            <br> Vine Sourdough Bakery
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Service Provided</em>
+                            </strong>
+                            <br> Web design/Social media management
+                        </p>
+                        <p class="work-summary">
+                            This website was created for an organic sourdough bakery in my university town. When I
+                            first met with one of the co-owners,
+                            we discussed their needs for their new website. At the time, they were using a free
+                            Wordpress
+                            blog to showcase events, but had no online menu or information about the business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="uiDesign" class="tabcontent">
+            <!--Row 1-->
+            <div class="columns is-centered">
+                <div class="portfolio-item column is-one-half">
+                    <div id="vine">
+                        <a href="#">
+                            <picture class="enlarge screens">
+                                <img src="appscreens.png" alt="Mobile UI Design">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item column is-one-half">
+                    <div id="portfolio-text">
+                        <h1 class="big-number">Mobile App Concept</h1>
+                        <p class="work-info">
+                            <em>
+                                <strong>Work Dates</strong>
+                            </em>
+                            <br> 2018
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Client</em>
+                            </strong>
+                            <br> Personal Work
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Service Provided</em>
+                            </strong>
+                            <br> Mobile App Design
+                        </p>
+                        <br>
+                        <p class="work-summary">
+                            This app was created as UI/UX practice. I went through a long process of UX theory and
+                            testing, so please check out the project
+                            page to learn more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="gameDesign" class="tabcontent">
+            <!--Row 1-->
+            <div class="columns is-centered">
+                <div class="portfolio-item column is-one-half">
+                    <div id="games">
+                        <a href="#">
+                            <picture class="enlarge screens">
+                                <img src="appscreens.png" alt="Game Design">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item column is-one-half">
+                    <div id="portfolio-text">
+                        <h1 class="big-number">Blossom</h1>
+                        <p class="work-info">
+                            <em>
+                                <strong>Work Dates</strong>
+                            </em>
+                            <br> 2018
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Client</em>
+                            </strong>
+                            <br> Steven David
+                            <br>
+                            <br>
+                            <em>
+                                <strong>Service Provided</em>
+                            </strong>
+                            <br> Game UI and Branding Design
+                        </p>
+                        <br>
+                        <p class="work-summary">
+                            This design was created for an indie game developer working on a project called Blossom.
+                            Mockups were created in Figma and
+                            finalized in Photoshop to be imported into Unity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="scroll-section section hidden">
+        <div class="columns is-centered logoName">
+            <h3>About me</h3>
+        </div>
+        <div class="columns">
+            <div class="column has-text-centered">
+                <p>I belong to the generation who experienced the beginning of the internet and grew alongside it.<br>
+                    As a result of this, I feel very connected to technology and the design behind it.</p>
+                <br>
+                <h4 style="color: #d2933b;text-align: center;">I'm endlessly curious
+                    <br>and incredibly passionate
+                    <br>about design and technology.</h4>
+                <br>
+                <p>I am now living in Hiroshima, Japan as an English teacher and I love it!<br>
+                    In my down time, I'm often managing two different websites for my fellow expats,<br>
+                    or polishing up the code on this portfolio.
+                </p>
+                <br>
+
+                <p>However, when I'm not sharpening my skills,
+                    <br>I'm probably gaming with my other half and/or enjoying a nice glass of wine.</p>
+
+            </div>
+        </div>
+        <div style="margin-bottom: -150px; height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-16.76,100.16 C137.02,-15.28 370.26,151.47 505.09,54.77 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: white;"></path>
+            </svg>
+        </div>
+    </div>
+    <div class="scroll-section section" id="contact">
+        <div style="margin-top: 150px; text-align: center;" class="hidden is-centered container columns logoName">
+            <h3>Connect</h3><br>
+        </div>
+        <div class="hidden container columns is-centered">
+            <i class="icons enlarge fab fa-behance"></i>
+            <i class="icons enlarge fab fa-github-alt"></i>
+            <i class="icons enlarge fab fa-facebook-f"></i>
+            <i class="icons enlarge fab fa-linkedin-in"></i>
+        </div>
+        <div class="hidden container columns has-text-centered">
+            <div class="column">
+                <p>If you're interested in working with me, consider shooting me a message!</p>
+            </div>
+        </div>
+        <div class="hidden columns is-centered">
+            <div id="contact-form" class="column is-two-thirds">
+                <form action="https://formspree.io/kllewis352@gmail.com" method="POST">
+                    <div class="field">
+                        <div class="control">
+                            <input class="input" type="text" placeholder="What's your name?">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <input class="input" type="email" name="_replyto" placeholder="What's your email?">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Whatcha gotta say?"></textarea>
+                        </div>
+                    </div>
+                    <div style="padding: 20px 20px;" class="columns is-centered">
+                        <input class="button is-outlined is-dark is-fullwidth" type="submit" value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="columns is-centered">
+            <p style="padding-top: 50px; font-size: .8rem;font-style: italic"> © 2018 Kristen Lewis</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- Popper JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+    function openWork(evt, workType) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(workType).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+
+
+    $(document).ready(function () {
+        $('a[href*=#]').bind('click', function (e) {
+            e.preventDefault(); // prevent hard jump, the default behavior
+
+            var target = $(this).attr("href"); // Set the target as variable
+
+            // perform animated scrolling by getting top-position of target-element and set it as scroll target
+            $('html, body').stop().animate({
+                scrollTop: $(target).offset().top
+            }, 600, function () {
+                location.hash = target; //attach the hash (#jumptarget) to the pageurl
+            });
+
+            return false;
+        });
+    });
+
+    $(window).scroll(function () {
+        var scrollDistance = $(window).scrollTop();
+
+        // Show/hide menu on scroll
+        //if (scrollDistance >= 850) {
+        //		$('nav').fadeIn("fast");
+        //} else {
+        //		$('nav').fadeOut("fast");
+        //}
+
+        // Assign active class to nav links while scolling
+        $('.scroll-section').each(function (i) {
+            if ($(this).position().top <= scrollDistance) {
+                $('.navbar-menu a.active').removeClass('active');
+                $('.navbar-menu a').eq(i).addClass('active');
+            }
+        });
+    }).scroll();
+</script>
+
+<!--Fade in JS-->
+<script>
+    var animateHTML = function () {
+        var elems;
+        var windowHeight;
+
+        function init() {
+            elems = document.querySelectorAll('.hidden');
+            windowHeight = window.innerHeight;
+            addEventHandlers();
+            checkPosition();
+        }
+
+        function addEventHandlers() {
+            window.addEventListener('scroll', checkPosition);
+            window.addEventListener('resize', init);
+        }
+
+        function checkPosition() {
+            for (var i = 0; i < elems.length; i++) {
+                var positionFromTop = elems[i].getBoundingClientRect().top;
+                if (positionFromTop - windowHeight <= 0) {
+                    elems[i].className = elems[i].className.replace(
+                        'hidden',
+                        'fade-in-element'
+                    );
+                }
+            }
+        }
+        return {
+            init: init
+        };
+    };
+    animateHTML().init();
+</script>
