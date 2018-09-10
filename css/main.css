@@ -2837,14 +2837,11 @@ footer .footer-nav li a:hover {
 }
 
 .flowers {
+    margin-top: -300px;
     position: absolute;
     z-index: 1;
-    top: 0;
-    right: 0;
-    margin-top: -10px;
-    margin-right: -150px;
-    max-height: 900px;
-    opacity: .8;
+    max-height: 500px;
+    opacity: 1;
 }
 
 /* experimental code fade in effect */
