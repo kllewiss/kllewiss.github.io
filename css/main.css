@@ -1896,11 +1896,15 @@ body {
 
 .menu-bar span {
     color: #2e2e2e;
-    font-size: 30px
+    font-size: 30px;
+
 }
 
 .main-menubar {
-    position: relative
+    position: fixed;
+    right: 0;
+    padding-right: 50px;
+    padding-top: 50px;
 }
 
 nav {
@@ -1932,7 +1936,7 @@ nav.hide {
 nav a {
     color: #777;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 0 25px;
     display: inline-block;
@@ -2036,15 +2040,17 @@ nav a:hover {
     opacity: 1
 }
 
-#landing  {
+#landing {
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
     background-color: #f8f3e6;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
 }
+
 .process-area {
     background: #2e2e2e;
 }
+
 .p1-gradient-bg,
 .banner-area .genric-btn:hover,
 .generic-banner,
@@ -2129,7 +2135,6 @@ nav a:hover {
         display: none
     }
 }
-
 
 @media (max-width: 767px) {
     .banner-content p {
@@ -2408,13 +2413,13 @@ nav a:hover {
 .service-area .overlay-bg {
     background: rgba(0, 0, 0, 0.8)
 }
+
 /*
 .service-area .active-service-carousel {
     -webkit-box-shadow: 0px 16px 13px 0px rgba(50, 50, 50, 0.1);
     -moz-box-shadow: 0px 16px 13px 0px rgba(50, 50, 50, 0.1);
     box-shadow: 0px 16px 13px 0px rgba(50, 50, 50, 0.1)
 }*/
-
 .service-area .active-service-carousel .item {
     background: #fff;
     border-radius: 3px
@@ -2776,7 +2781,7 @@ footer .footer-nav li a:hover {
 }
 
 .footer-social a i {
-    color: #777777;    
+    color: #777777;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
@@ -2850,12 +2855,29 @@ footer .footer-nav li a:hover {
 
 /* experimental code fade in effect */
 @keyframes fade-in {
-    from {opacity: 0; transform: scale(.9,.9)}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+        transform: scale(.9, .9)
+    }
+
+    to {
+        opacity: 1;
+    }
 }
+
 .fade-in-element {
-  animation: fade-in 1.7s;
+    animation: fade-in 1.7s;
 }
+
 .hidden {
     opacity: 0;
-  }
+}
+
+.me {
+    background-image: url("../img/me.jpg") !important;
+    background-repeat: no-repeat;
+    height: 50vh;
+        /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    box-shadow: inset 0px 10px 30px 10px #2e2e2e;
+}
