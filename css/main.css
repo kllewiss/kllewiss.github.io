@@ -1895,7 +1895,7 @@ body {
 }
 
 .menu-bar span {
-    color: #2e2e2e;
+    color: #eb6b55;
     font-size: 30px;
 
 }
@@ -2050,7 +2050,9 @@ nav a:hover {
 .process-area {
     background: #2e2e2e;
 }
-
+#about {
+background: #2e2e2e;
+}
 .p1-gradient-bg,
 .banner-area .genric-btn:hover,
 .generic-banner,
@@ -2119,10 +2121,10 @@ nav a:hover {
 .banner-content p {
     letter-spacing: .8px;
     line-height: 1.6;
-    color: #2e2e2e;
     margin-bottom: 60px;
     font-size: 18px
 }
+
 
 @media (max-width: 991px) {
     .banner-content h1 {
