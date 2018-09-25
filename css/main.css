@@ -1940,7 +1940,7 @@ nav.hide {
     transform: scale(0)
 }
 
-.page-nav a{
+.page-nav a {
     color: #fff;
     padding: 10px;
     background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
@@ -1950,7 +1950,7 @@ nav.hide {
     border-radius: 10px;
 }
 
-.page-nav a:hover{
+.page-nav a:hover {
     padding: 10px;
     background-color: #fff;
     background-image: none;
@@ -2078,9 +2078,11 @@ nav a:hover {
 .process-area {
     background: #2e2e2e;
 }
+
 #about {
-background: #2e2e2e;
+    background: #2e2e2e;
 }
+
 .p1-gradient-bg,
 .banner-area .genric-btn:hover,
 .service-area .next-trigger:hover,
@@ -2903,7 +2905,69 @@ footer .footer-nav li a:hover {
     background-image: url("../img/me.jpg") !important;
     background-repeat: no-repeat;
     height: 50vh;
-        /* Create the parallax scrolling effect */
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     box-shadow: inset 0px 10px 30px 10px #2e2e2e;
 }
+
+.spinner-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e2e2e;
+    z-index: 999999;
+}
+
+.spinner {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+  }
+  
+  .dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    background-image: -webkit-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    background-image: -ms-linear-gradient(120deg #ffc28f 0%, #dc4f4a 100%);
+    border-radius: 100%;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+  @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
