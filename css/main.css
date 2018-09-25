@@ -35,6 +35,23 @@
     font-weight: 300
 }
 
+/*Loading sign CSS*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(img/loader.gif) center no-repeat #fff;
+}
+
+/* End of loading sign css */
+
 html,
 body {
     width: 100%;
@@ -1933,6 +1950,26 @@ nav.hide {
     transform: scale(0)
 }
 
+.page-nav a{
+    color: #fff;
+    padding: 10px;
+    background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    background-image: -webkit-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    background-image: -ms-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    position: fixed;
+    border-radius: 10px;
+}
+
+.page-nav a:hover{
+    padding: 10px;
+    background-color: #fff;
+    background-image: none;
+    color: #dc4f4a;
+    position: fixed;
+    border-radius: 10px;
+    transition: 1s;
+}
+
 nav a {
     color: #777;
     font-size: 13px;
@@ -2040,11 +2077,12 @@ nav a:hover {
     opacity: 1
 }
 
-#landing {
+.paper-bg {
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
     background-color: #f8f3e6;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
+    color: #2e2e2e !important;
 }
 
 .process-area {
@@ -2055,7 +2093,6 @@ background: #2e2e2e;
 }
 .p1-gradient-bg,
 .banner-area .genric-btn:hover,
-.generic-banner,
 .service-area .next-trigger:hover,
 .service-area .prev-trigger:hover,
 .footer-social a:hover {
@@ -2148,10 +2185,6 @@ background: #2e2e2e;
     .banner-content p br {
         display: none
     }
-}
-
-.generic-banner.element-banner {
-    background: #fcd2ff
 }
 
 .generic-banner .height {
@@ -2267,7 +2300,7 @@ background: #2e2e2e;
 
 .carousel-trigger .next-trigger:hover,
 .carousel-trigger .prev-trigger:hover {
-    background: #fcd2ff;
+    background: #dc4f4a;
     border: 1px solid #fcd2ff
 }
 
