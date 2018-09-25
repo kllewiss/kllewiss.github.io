@@ -34,22 +34,11 @@ p {
     transition: 1s !important;
   }
 
-  #tabs a {
-      color: #000 !important;
-      border-bottom: none;
-  }
 
   #tabs a:hover {
     color: #ab3e16 !important;
 }
 /* end */  
-
-
-.active {
-    background: #fff !important;
-    color: #2e2e2e !important;
-    border-top: 1px solid black !important;
-}
 
 
 /*Portfolio Styles*/
