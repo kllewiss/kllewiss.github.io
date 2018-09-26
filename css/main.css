@@ -2075,6 +2075,22 @@ nav a:hover {
     color: #2e2e2e !important;
 }
 
+.vine-bg {
+    background-image: url("https://image.ibb.co/b6fk4e/IMG_0133.jpg");
+    background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    color: #2e2e2e !important;
+}
+
+.card-bg {
+    background-image: url("https://img00.deviantart.net/ba33/i/2012/227/d/9/shinjuku_by_bin1302-d5b5l3l.jpg");
+    background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    color: #2e2e2e !important;
+}
+
 .process-area {
     background: #2e2e2e;
 }
@@ -2331,7 +2347,7 @@ nav a:hover {
 }
 
 .core2-left img {
-    height: 100%
+    width: 70%;
 }
 
 .core2-right {
