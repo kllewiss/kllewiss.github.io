@@ -7,7 +7,8 @@
 }
 
 p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 2px;
 }
 
 .i {
@@ -67,8 +68,8 @@ p {
 }
 
 .portfolio-main {
-    font-family: "Nunito", serif;
-    font-weight: 400;
+    font-family: "Didact Gothic", serif;
+    letter-spacing: 2px;
     margin: 0 auto;
     padding-top: 50px;
 }
