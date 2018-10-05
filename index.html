@@ -63,17 +63,14 @@
 	<section id="landing" class=" paper-bg banner-area relative">
 		<div class="overlay overlay-bg"></div>
 		<div class="container">
-			<div class="row fullscreen align-items-center justify-content-center" style="height: 735px;">
-				<div class="col-lg-6">
+			<img style="position: absolute; top: 0; left: 0;" class="dont-click img-fluid" src="Logo.png">
+			<div class="row fullscreen align-items-center justify-content-center" style="height: 500px;">
+				<div class="col-lg-8">
 					<div class="banner-content text-left">
-						<img style="margin-left: -250px;" src="Logo.png">
-						<p>
-							Aspiring UI/UX Designer based in Japan
-						</p>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<img class="dont-click flowers" src="img/flower-box.png">
+				<div class="col-lg-4">
+					<img class="img-fluid dont-click flowers" src="img/flower-box.png">
 				</div>
 			</div>
 		</div>
@@ -300,13 +297,13 @@
 		</div>
 	</section>
 	<!-- End process Area -->
-	
+
 	<section>
-			<div style="margin-top: -100px; height: 150px; overflow: hidden;">
-					<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-						<path d="M0.00,49.98 C149.99,150.00 350.85,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path>
-					</svg>
-				</div>
+		<div style="margin-top: -100px; height: 150px; overflow: hidden;">
+			<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+				<path d="M0.00,49.98 C149.99,150.00 350.85,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path>
+			</svg>
+		</div>
 	</section>
 
 	<!-- Start Contact Area -->
@@ -320,7 +317,7 @@
 							Let's chat!
 						</h1>
 						<p class="text-center">I'm currently searching for full-time employment in UI/UX design.<br>
-							If you'd like to get in contact with me, please use the form here.<br>
+							If you'd like to get in contact with me, please use the form here <br>or send me an email at <strong>kristen@kgranieri.com</strong>.<br>
 							Talk to ya soon!
 						</p>
 						<br>
@@ -367,19 +364,19 @@
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
 	<script>
-			$(document).ready(function () {
-				//Preloader
-				$(window).on('load', function () {
-					preloaderFadeOutTime = 800;
-	
-					function hidePreloader() {
-						var preloader = $('.spinner-wrapper');
-						preloader.fadeOut(preloaderFadeOutTime);
-					}
-					hidePreloader();
-				});
+		$(document).ready(function () {
+			//Preloader
+			$(window).on('load', function () {
+				preloaderFadeOutTime = 800;
+
+				function hidePreloader() {
+					var preloader = $('.spinner-wrapper');
+					preloader.fadeOut(preloaderFadeOutTime);
+				}
+				hidePreloader();
 			});
-		</script>
+		});
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
 	 crossorigin="anonymous"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
