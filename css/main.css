@@ -2831,6 +2831,7 @@ footer .footer-nav li a:hover {
 
 .footer-social a i {
     color: #777777;
+    font-size: 25px;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
