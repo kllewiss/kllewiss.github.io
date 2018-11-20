@@ -35,6 +35,19 @@
     font-weight: 300
 }
 
+#landing::before {
+    content: 'DESIGN';
+    display: inline-block;
+    color: #000;
+    opacity: 0.04;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20rem;
+}
 
 html,
 body {
@@ -1907,7 +1920,7 @@ body {
 }
 
 .menu-bar span {
-    color: #eb6b55;
+    color: #eee;
     font-size: 30px;
 
 }
@@ -1966,7 +1979,7 @@ nav.hide {
 }
 
 nav a {
-    color: #777;
+    color: #eee;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -2073,11 +2086,12 @@ nav a:hover {
 }
 
 .paper-bg {
-    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
-    background-color: #f8f3e6;
+    background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    background-image: -webkit-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    background-image: -ms-linear-gradient(120deg #ffc28f 0%, #dc4f4a 100%);
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    color: #2e2e2e !important;
+    color: #eee !important;
 }
 
 .vine-bg {
