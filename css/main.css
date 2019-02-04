@@ -778,9 +778,13 @@ b,
 i,
 sup,
 sub,
-u,
 del {
-    color: #fcd2ff
+    color: #2e2e2e;
+}
+
+.underline {
+    color: #2e2e2e;
+    border-bottom: solid #dd794a 7px;
 }
 
 h1 {
@@ -2672,6 +2676,10 @@ nav a:hover {
     .subscription .info {
         top: 110px
     }
+}
+
+hr {
+    width: 90vw;
 }
 
 .contact-area {
