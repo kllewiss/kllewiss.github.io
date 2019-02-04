@@ -40,6 +40,7 @@
     color: #2e2e2e !important;
 }
 
+
 html,
 body {
     width: 100%;
@@ -2674,7 +2675,7 @@ nav a:hover {
 }
 
 .contact-area {
-    background: #fff
+    background: #fff !important;
 }
 
 .contact-area h2 {
