@@ -36,21 +36,8 @@
 }
 
 #landing {
-    height: 80vh;
-}
-
-#landing::before {
-    content: 'KRISTENGRANIERI';
-    display: inline-block;
-    color: #000;
-    opacity: 0.04;
-    font-weight: 800;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 20rem;
+    height: 80vh !important;
+    color: #2e2e2e !important;
 }
 
 html,
@@ -67,7 +54,7 @@ body {
     font-size: 14px;
     line-height: 20px;
     position: relative;
-    border: 20px solid #2e2e2e;
+    border: 10px solid #2e2e2e;
 }
 
 ol,
@@ -1926,7 +1913,7 @@ body {
 }
 
 .menu-bar span {
-    color: #eee;
+    color: #691a14;
     font-size: 30px;
 
 }
@@ -1953,7 +1940,7 @@ nav {
         position: absolute;
         right: 0;
         top: 47px;
-        text-align: right;
+        text-align: center;
         padding: 20px 0;
         z-index: 5;
         background: #fff
@@ -1985,7 +1972,7 @@ nav.hide {
 }
 
 nav a {
-    color: #eee;
+    color: #2e2e2e;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -2090,15 +2077,16 @@ nav a:hover {
 .primary-btn.hover:after {
     opacity: 1
 }
-
-.paper-bg {
+/*
+.gradient-bg {
     background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
     background-image: -webkit-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
     background-image: -ms-linear-gradient(120deg #ffc28f 0%, #dc4f4a 100%);
-    /* Create the parallax scrolling effect */
+     /* Create the parallax scrolling effect 
+    background-color: #691a14;
     background-attachment: fixed;
     color: #eee !important;
-}
+}*/
 
 .vine-bg {
     background-image: url("https://image.ibb.co/b6fk4e/IMG_0133.jpg");
