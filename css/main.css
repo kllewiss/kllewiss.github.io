@@ -2676,6 +2676,7 @@ nav a:hover {
 
 .contact-area {
     background: #fff !important;
+    z-index: 5;
 }
 
 .contact-area h2 {
