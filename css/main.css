@@ -35,11 +35,34 @@
     font-weight: 300
 }
 
-#landing {
-    height: 80vh !important;
-    color: #2e2e2e !important;
+.bold {
+    font-weight: 700;
 }
 
+.italic {
+    font-weight: 300i;
+}
+
+
+#landing {
+    height: 100vh !important;
+    color: #333 !important;
+    background-image: url("img/leaf.svg");
+    background-attachment: fixed;
+}
+
+
+#landing h3 {
+    max-width: 700px;
+    line-height: 20px !important;
+    font-weight:  300;
+    font-size: 12px;
+}
+
+#landing h2 {
+    font-size: 36px;
+    line-height: 42px !important;
+}
 
 html,
 body {
@@ -50,7 +73,7 @@ body {
 
 body {
     color: #777;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     letter-spacing: 1px;
     font-size: 14px;
     line-height: 20px;
@@ -585,6 +608,16 @@ th {
     padding: 100px 0
 }
 
+.fullvh {
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
 .logo {
     max-width: 100px;
     max-height: 100px;
@@ -789,27 +822,27 @@ del {
 
 h1 {
     font-size: 36px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 h2 {
     font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
 }
 
 h3 {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 24px
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 h4 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 18px
 }
 
 h5 {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
     font-size: 16px
 }
 
