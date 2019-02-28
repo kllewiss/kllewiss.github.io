@@ -3001,7 +3001,7 @@ footer .footer-nav li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #333;
+    background-color: #F5EDE1;
     z-index: 999999;
 }
 
@@ -3024,15 +3024,17 @@ footer .footer-nav li a:hover {
     display: inline-block;
     position: absolute;
     top: 0;
-    background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
-    background-image: -webkit-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
-    background-image: -ms-linear-gradient(120deg #ffc28f 0%, #dc4f4a 100%);
     border-radius: 100%;
     -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
     animation: sk-bounce 2.0s infinite ease-in-out;
   }
   
+  .dot1 {
+      background: #547A5D;
+  }
+
   .dot2 {
+      background: #F56060;
     top: auto;
     bottom: 0;
     -webkit-animation-delay: -1.0s;
