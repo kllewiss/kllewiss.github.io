@@ -78,7 +78,7 @@ body {
     font-size: 14px;
     line-height: 20px;
     position: relative;
-    border: 10px solid #2e2e2e;
+    border: 10px solid #333;
 }
 
 ol,
@@ -149,7 +149,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #2e2e2e;
+    color: #333;
     line-height: 1em !important;
     margin-bottom: 0;
     margin-top: 0;
@@ -169,7 +169,7 @@ h6 {
 h1,
 .h1 {
     font-size: 36px;
-    color: #2e2e2e;
+    color: #333;
 }
 
 h2,
@@ -810,11 +810,11 @@ i,
 sup,
 sub,
 del {
-    color: #2e2e2e;
+    color: #333;
 }
 
 .underline {
-    color: #2e2e2e;
+    color: #333;
     border-bottom: solid #dd794a 7px;
 }
 
@@ -966,12 +966,12 @@ h6 {
 
 .genric-btn.primary {
     color: #F5EDE1;
-background: #2e2e2e;
+background: #333;
     border: 1px solid #fff;
 }
 
 .genric-btn.primary:hover {
-    color: #2e2e2e;
+    color: #333;
     border: 1px solid #F5EDE1;
 background: #f5ede1;
 }
@@ -2004,7 +2004,7 @@ nav.hide {
 }
 
 nav a {
-    color: #2e2e2e;
+    color: #333;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -2027,7 +2027,7 @@ nav a:hover {
 }
 
 .section-gap {
-    padding: 10px 0
+    padding: 30px 0
 }
 
 .section-title {
@@ -2125,7 +2125,7 @@ nav a:hover {
     background-size: cover;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    color: #2e2e2e !important;
+    color: #333 !important;
 }
 
 .card-bg {
@@ -2133,15 +2133,15 @@ nav a:hover {
     background-size: cover;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    color: #2e2e2e !important;
+    color: #333 !important;
 }
 
 .process-area {
-    background: #2e2e2e;
+    background: #333;
 }
 
 #about {
-    background: #2e2e2e;
+    background: #333;
 }
 
 .p1-gradient-bg,
@@ -2149,7 +2149,7 @@ nav a:hover {
 .service-area .next-trigger:hover,
 .service-area .prev-trigger:hover,
 .footer-social a:hover {
-    background: #2e2e2e;
+    background: #333;
 }
 
 .p2-gradient-bg,
@@ -2194,7 +2194,7 @@ background: #F5EDE1;
 }
 
 .banner-content h1 {
-    color: #2e2e2e;
+    color: #333;
     font-size: 84px;
     letter-spacing: 1px;
     font-weight: 600;
@@ -2368,7 +2368,7 @@ background: #F5EDE1;
     font-size: 28px;
     font-weight: 600;
     margin-top: 10px;
-color: #2e2e2e;
+color: #333;
 }
 
 .projectcard h2 span {
@@ -2429,7 +2429,7 @@ color: #2e2e2e;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #2e2e2e;
+    color: #333;
 }
 
 .core2-right h2 span {
@@ -2723,26 +2723,33 @@ hr {
     width: 90vw;
 }
 
-.contact-area {
-    background: #fff !important;
-    z-index: 5;
+#contact {
+    height: 100vh;
 }
 
-.contact-area h2 {
+.contact-area {
+    align-content: center !important;
+    justify-content: center !important;
+    background: #333 !important;
+    z-index: 5;
     color: #fff;
-    font-size: 36px;
-    font-weight: 600px;
-    letter-spacing: 4px
+}
+
+.contact-area h1 {
+    color: #fff !important;
+    font-size: 2rem;
+    letter-spacing: 2px
 }
 
 .contact-area p {
-    margin-top: 25px;
-    color: #2e2e2e;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    color: #fff;
 }
 
 .form-area {
     width: 100%;
-    margin-left: 40px
 }
 
 @media (max-width: 768px) {
@@ -2771,49 +2778,49 @@ hr {
 }
 
 .contact-form ::-webkit-input-placeholder {
-    color: #777777;
+    color: #BBB7BD;
     font-weight: 300
 }
 
 .contact-form :-moz-placeholder {
-    color: #777777;
+    color: #bbb7bd;
     opacity: 1;
     font-weight: 300
 }
 
 .contact-form ::-moz-placeholder {
-    color: #777777;
+    color: #BBB7BD;
     opacity: 1;
     font-weight: 300
 }
 
 .contact-form :-ms-input-placeholder {
-    color: #777777;
+    color: #BBB7BD;
     font-weight: 300
 }
 
 .contact-form ::-ms-input-placeholder {
-    color: #777777;
+    color: #BBB7BD;
     font-weight: 300
 }
 
 .common-input {
-    border: 1px solid rgba(111, 117, 152, 0.3);
+    border: 1px solid rgba(218, 217, 191, 0.623);
     line-height: 48px;
     width: 100%;
     display: block;
     background: transparent;
     padding: 0 25px;
-    color: #777
+    color: #BBB7BD
 }
 
 .common-textarea {
-    border: 1px solid rgba(111, 117, 152, 0.3);
+    border: 1px solid rgba(218, 217, 191, 0.623);
     width: 100%;
     display: block;
     background: transparent;
     padding: 15px 25px;
-    color: #777;
+    color: #bbb7bd;
     height: 150px;
     resize: none
 }
@@ -2831,7 +2838,8 @@ hr {
 }
 
 footer {
-    background: #2e2e2e
+    background: #333;
+    font-size: .8rem;
 }
 
 footer .footer-nav li {
@@ -2855,10 +2863,6 @@ footer .footer-nav li a:hover {
     font-weight: 500
 }
 
-.footer-bottom {
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
 
 .footer-bottom .footer-text i {
     color: #777777
@@ -2888,7 +2892,7 @@ footer .footer-nav li a:hover {
 }
 
 .footer-social a i {
-    color: #2e2e2e;
+    color: #333;
     margin-top: 5px;
     font-size: 25px;
     -webkit-transition: 0.3s;
@@ -2988,7 +2992,7 @@ footer .footer-nav li a:hover {
     height: 50vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    box-shadow: inset 0px 10px 30px 10px #2e2e2e;
+    box-shadow: inset 0px 10px 30px 10px #333;
 }
 
 .spinner-wrapper {
@@ -2997,7 +3001,7 @@ footer .footer-nav li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2e2e2e;
+    background-color: #333;
     z-index: 999999;
 }
 
