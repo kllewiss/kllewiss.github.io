@@ -163,7 +163,7 @@ h6 {
 .h6 {
     margin-bottom: 0;
     margin-top: 0;
-    color: #222
+    color: #333
 }
 
 h1,
@@ -195,7 +195,7 @@ h5,
 h6,
 .h6 {
     font-size: 14px;
-    color: #222
+    color: #333
 }
 
 td,
@@ -617,8 +617,7 @@ th {
   }
 
 .logo {
-    max-width: 100px;
-    max-height: 100px;
+    width: 10%;
 }
 
 .section-half {
@@ -943,7 +942,7 @@ h6 {
 }
 
 .genric-btn.default {
-    color: #222;
+    color: #333;
     background: #f9f9ff;
     border: 1px solid transparent
 }
@@ -959,7 +958,7 @@ h6 {
 }
 
 .genric-btn.default-border:hover {
-    color: #222;
+    color: #333;
     background: #f9f9ff;
     border: 1px solid transparent
 }
@@ -1085,33 +1084,33 @@ background: #f5ede1;
 }
 
 .genric-btn.link {
-    color: #222;
+    color: #333;
     background: #f9f9ff;
     text-decoration: underline;
     border: 1px solid transparent
 }
 
 .genric-btn.link:hover {
-    color: #222;
+    color: #333;
     border: 1px solid #f9f9ff;
     background: #fff
 }
 
 .genric-btn.link-border {
-    color: #222;
+    color: #333;
     border: 1px solid #f9f9ff;
     background: #fff;
     text-decoration: underline
 }
 
 .genric-btn.link-border:hover {
-    color: #222;
+    color: #333;
     background: #f9f9ff;
     border: 1px solid transparent
 }
 
 .genric-btn.disable {
-    color: #222, 0.3;
+    color: #333, 0.3;
     background: #f9f9ff;
     border: 1px solid transparent;
     cursor: not-allowed
@@ -1159,7 +1158,7 @@ background: #f5ede1;
 .progress-table .table-head .country,
 .progress-table .table-head .visit,
 .progress-table .table-head .percentage {
-    color: #222;
+    color: #333;
     line-height: 40px;
     text-transform: uppercase;
     font-weight: 500
@@ -1986,9 +1985,7 @@ nav.hide {
 .page-nav a {
     color: #fff;
     padding: 10px;
-    background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
-    background-image: -webkit-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
-    background-image: -ms-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
+    background: #333;
     position: fixed;
     border-radius: 10px;
 }
@@ -2055,7 +2052,7 @@ nav a:hover {
     border-radius: 20px;
     background: transparent;
     border: 1px solid #fff;
-    color: #222;
+    color: #333;
     display: inline-block;
     font-weight: 500;
     position: relative;
@@ -2109,16 +2106,6 @@ nav a:hover {
 .primary-btn.hover:after {
     opacity: 1
 }
-/*
-.gradient-bg {
-    background-image: -moz-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
-    background-image: -webkit-linear-gradient(120deg, #ffc28f 0%, #dc4f4a 100%);
-    background-image: -ms-linear-gradient(120deg #ffc28f 0%, #dc4f4a 100%);
-     /* Create the parallax scrolling effect 
-    background-color: #691a14;
-    background-attachment: fixed;
-    color: #eee !important;
-}*/
 
 .vine-bg {
     background-image: url("https://image.ibb.co/b6fk4e/IMG_0133.jpg");
@@ -2144,7 +2131,6 @@ nav a:hover {
     background: #333;
 }
 
-.p1-gradient-bg,
 .banner-area .genric-btn:hover,
 .service-area .next-trigger:hover,
 .service-area .prev-trigger:hover,
@@ -2152,17 +2138,8 @@ nav a:hover {
     background: #333;
 }
 
-.p2-gradient-bg,
 .primary-btn:after {
 background: #F5EDE1;
-}
-
-.p1-gradient-color {
-    background: -moz-linear-gradient(0deg, #91d1ff, #a387ff);
-    background: -webkit-linear-gradient(0deg, #91d1ff, #a387ff);
-    background: -ms-linear-gradient(0deg, #91d1ff, #a387ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
 }
 
 @media (max-width: 767px) {
@@ -2180,7 +2157,7 @@ background: #F5EDE1;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    color: #000
+    color: #333
 }
 
 .banner-area .genric-btn:hover {
@@ -2942,12 +2919,6 @@ footer .footer-nav li a:hover {
     margin-left: -100px
 }
 
-.box {
-    -webkit-linear-gradient: 0deg, red, blue;
-    -moz-linear-gradient: 0deg, red, blue;
-    -o-linear-gradient: 0deg, red, blue;
-    -linear-gradient: 0deg, red, blue
-}
 
 /* My Additions */
 .dont-click {
