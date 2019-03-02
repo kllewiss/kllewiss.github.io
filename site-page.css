@@ -1,28 +1,15 @@
-.hero {
-    height: 100vh !important;
-    z-index: -2;
-    background-color: #f8f3e6 !important;
-    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png") !important;
-    color: #2e2e2e;
-}
-
-p {
-    font-family: 'Didact Gothic', sans-serif;
-    letter-spacing: 2px;
-}
-
 .i {
     background-color: transparent;
     background-image: none;
     }
 
 .click-me {
-    color: #ab3e16;
+    color: #333;
     font-weight: 600;
 }
 
 .click-me:hover {
-    border-bottom: 2px solid #d2933b;
+    border-bottom: 2px solid #333;
 }
 
 /* tab stuff*/
@@ -49,7 +36,7 @@ p {
 }
 
 .portfolio h5 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
     padding: 10px;
@@ -82,8 +69,4 @@ p {
 
 .portfolio-item img {
     width: 100%;
-}
-
-.personas {
-    padding: 50px 50px;
 }
