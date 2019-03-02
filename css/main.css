@@ -47,10 +47,13 @@
 #landing {
     height: 96vh !important;
     color: #333 !important;
-    background-image: url("img/leaf.svg");
-    background-attachment: fixed;
 }
 
+#landing .leaf {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+}
 
 #landing h3 {
     max-width: 700px;
