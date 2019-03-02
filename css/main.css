@@ -1992,7 +1992,7 @@ nav.hide {
     padding: 10px;
     background-color: #fff;
     background-image: none;
-    color: #dc4f4a;
+    color: #547A5D;
     position: fixed;
     border-radius: 10px;
     transition: 1s;
@@ -2018,7 +2018,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #691a14;
+    color: #547A5D;
 }
 
 .section-gap {
@@ -2364,7 +2364,7 @@ color: #333;
 }
 
 #cardapp {
-    background-image: url('../img/dribbblemockup.png') !important;
+    background-image: url('../img/cardapp.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
