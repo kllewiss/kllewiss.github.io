@@ -2158,6 +2158,31 @@ background: #F5EDE1;
 }
 
 @media (max-width: 767px) {
+    #landing .leaf {
+        visibility: hidden;
+    }
+    .logo {
+        max-height: 75px;
+    }
+
+    .project {
+        height: 100vh !important;
+    }
+
+
+    
+    #cardapp .projectcard {
+        width: 80vw !important;
+        justify-content: center;
+        margin: 0 !important;
+
+    }
+
+    #sharity .projectcard {
+        width: 80vw !important;
+        justify-content: center;
+        margin: 0 !important;
+    }
     .banner-area .fullscreen {
         height: 700px !important
     }
@@ -2383,7 +2408,6 @@ color: #333;
     background-image: url('../img/cardapp.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
     height: 70vh;
 }
 
