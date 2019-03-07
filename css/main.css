@@ -2893,6 +2893,7 @@ hr {
 footer {
     background: #333;
     font-size: .8rem;
+    color: #BBB7BD !important;
 }
 
 footer .footer-nav li {
@@ -2917,8 +2918,8 @@ footer .footer-nav li a:hover {
 }
 
 
-.footer-bottom .footer-text i {
-    color: #777777
+.footer-text {
+    color: #BBB7BD !important;
 }
 
 .footer-bottom .footer-text a {
@@ -3034,12 +3035,8 @@ footer .footer-nav li a:hover {
 }
 
 .me {
-    background-image: url("../img/me.jpg") !important;
-    background-repeat: no-repeat;
     height: 50vh;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    box-shadow: inset 0px 10px 30px 10px #333;
+    box-shadow: -10px 10px 0px #333;
 }
 
 .spinner-wrapper {
