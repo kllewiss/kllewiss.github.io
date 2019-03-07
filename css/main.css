@@ -2158,6 +2158,21 @@ background: #F5EDE1;
 }
 
 @media (max-width: 767px) {
+
+    #contact {
+        height: auto !important ;
+        min-height: 100vh;
+    }
+
+    #landing {
+        height: auto !important;
+        min-height: 100vh;
+    }
+
+    #landing .pt-100 {
+        padding-top: 10px;
+    }
+
     #landing .leaf {
         visibility: hidden;
     }
@@ -2169,8 +2184,19 @@ background: #F5EDE1;
         height: 100vh !important;
     }
 
+    .default-header {
+        position: relative;
+        padding: 10px;
+    }
 
+    .footer-social {
+        justify-content: space-around;
+    }
     
+    nav {
+        visibility: hidden;
+    }
+
     #cardapp .projectcard {
         width: 80vw !important;
         justify-content: center;
