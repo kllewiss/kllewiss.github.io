@@ -2166,7 +2166,11 @@ background: #F5EDE1;
 
     #landing {
         height: auto !important;
-        min-height: 100vh;
+        min-height: 80vh;
+    }
+
+    .center {
+        align-items: start !important;
     }
 
     #landing .pt-100 {
@@ -2190,7 +2194,7 @@ background: #F5EDE1;
     }
 
     .footer-social {
-        justify-content: space-around;
+        justify-content: space-around;  
     }
     
     nav {
