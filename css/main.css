@@ -2922,14 +2922,6 @@ footer .footer-nav li a:hover {
     color: #BBB7BD !important;
 }
 
-.footer-bottom .footer-text a {
-    color: #777
-}
-
-.footer-bottom .footer-text a:hover {
-    color: #BBB7BD
-}
-
 @media (max-width: 767px) {
     .footer-social {
         margin-top: 10px
