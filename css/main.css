@@ -2339,13 +2339,12 @@ background: #F5EDE1;
 
 .carousel-trigger .next-trigger:hover,
 .carousel-trigger .prev-trigger:hover {
-    background: #dc4f4a;
-    border: 1px solid #fcd2ff
+    background: #F5EDE1;
 }
 
 .carousel-trigger .next-trigger:hover span,
 .carousel-trigger .prev-trigger:hover span {
-    color: #fff
+    color: #F56060
 }
 
 .projectcard h5 {
