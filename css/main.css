@@ -58,13 +58,14 @@
 #landing h3 {
     max-width: 700px;
     line-height: 1.5rem !important;
-    font-weight:  300;
+    font-weight: 300;
     font-size: .8rem;
 }
 
 #landing h2 {
     font-size: 3rem;
-    line-height: 2.5rem; !important;
+    line-height: 2.5rem;
+     !important;
 }
 
 html,
@@ -213,6 +214,7 @@ p {
 bold {
     font-weight: 700;
 }
+
 td,
 th {
     border-radius: 0px
@@ -610,7 +612,7 @@ th {
 .float-right {
     float: right
 }
- 
+
 figcaption {
     font-size: .8em;
 }
@@ -642,7 +644,7 @@ figcaption {
     display: flex;
     align-items: center !important;
     justify-content: center !important;
-  }
+}
 
 
 .section-half {
@@ -990,14 +992,14 @@ h6 {
 
 .genric-btn.primary {
     color: #fff;
-background: #333;
+    background: #333;
     border: 1px solid #fff;
 }
 
 .genric-btn.primary:hover {
     color: #333;
     border: 1px solid #F5EDE1;
-background: #f5ede1;
+    background: #f5ede1;
 }
 
 .genric-btn.primary-border {
@@ -2165,13 +2167,13 @@ nav a:hover {
 }
 
 .primary-btn:after {
-background: #F5EDE1;
+    background: #F5EDE1;
 }
 
 @media (max-width: 767px) {
 
     #contact {
-        height: auto !important ;
+        height: auto !important;
         min-height: 100vh;
     }
 
@@ -2191,6 +2193,7 @@ background: #F5EDE1;
     #landing .leaf {
         visibility: hidden;
     }
+
     .navbar-brand img {
         max-height: 75px;
     }
@@ -2205,7 +2208,7 @@ background: #F5EDE1;
     }
 
     .footer-social {
-        justify-content: space-around;  
+        justify-content: space-around;
     }
 
     #cardapp .projectcard {
@@ -2220,6 +2223,7 @@ background: #F5EDE1;
         justify-content: center;
         margin: 0 !important;
     }
+
     .banner-area .fullscreen {
         height: 700px !important
     }
@@ -2421,7 +2425,7 @@ background: #F5EDE1;
     font-size: 28px;
     font-weight: 600;
     margin-top: 10px;
-color: #333;
+    color: #333;
 }
 
 .projectcard h2 span {
@@ -2453,7 +2457,8 @@ color: #333;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 70vh;}
+    height: 70vh;
+}
 
 #sharity .projectcard {
     margin-left: 30px;
@@ -2776,7 +2781,8 @@ hr {
 }
 
 #contact {
-    height: 100vh;
+    height: auto !important;
+    min-height: 100vh;
 }
 
 .contact-area {
@@ -2793,9 +2799,9 @@ hr {
     letter-spacing: 2px
 }
 
-.contact-area p {
+#contact p {
     font-family: "Nunito Sans", sans-serif;
-    font-size: .8rem;
+    font-size: .8rem !important;
     font-weight: 300;
     color: #fff;
 }
@@ -3048,12 +3054,13 @@ footer .footer-nav li a:hover {
     height: 40px;
     position: relative;
     text-align: center;
-    
+
     -webkit-animation: sk-rotate 2.0s infinite linear;
     animation: sk-rotate 2.0s infinite linear;
-  }
-  
-  .dot1, .dot2 {
+}
+
+.dot1,
+.dot2 {
     width: 60%;
     height: 60%;
     display: inline-block;
@@ -3062,34 +3069,55 @@ footer .footer-nav li a:hover {
     border-radius: 100%;
     -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
     animation: sk-bounce 2.0s infinite ease-in-out;
-  }
-  
-  .dot1 {
-      background: #547A5D;
-  }
+}
 
-  .dot2 {
-      background: #F56060;
+.dot1 {
+    background: #547A5D;
+}
+
+.dot2 {
+    background: #F56060;
     top: auto;
     bottom: 0;
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
-  }
-  
-  @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
-  @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
-  
-  @-webkit-keyframes sk-bounce {
-    0%, 100% { -webkit-transform: scale(0.0) }
-    50% { -webkit-transform: scale(1.0) }
-  }
-  
-  @keyframes sk-bounce {
-    0%, 100% { 
-      transform: scale(0.0);
-      -webkit-transform: scale(0.0);
-    } 50% { 
-      transform: scale(1.0);
-      -webkit-transform: scale(1.0);
+}
+
+@-webkit-keyframes sk-rotate {
+    100% {
+        -webkit-transform: rotate(360deg)
     }
-  }
+}
+
+@keyframes sk-rotate {
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes sk-bounce {
+
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
