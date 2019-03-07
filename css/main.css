@@ -1980,6 +1980,11 @@ nav {
     transform-origin: 100% 50%
 }
 
+.active {
+    border-bottom: 1px solid #547A5D;
+    color: #547A5D
+}
+
 @media (max-width: 767px) {
     nav {
         margin-right: 0;
