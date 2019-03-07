@@ -2142,7 +2142,7 @@ nav a:hover {
 }
 
 .card-bg {
-    background-image: url("https://images.unsplash.com/photo-1521517407911-565264e7d82d?ixlib=rb-0.3.5&s=280fb821540117a72fca4d2191948fa2&auto=format&fit=crop&w=1349&q=80");
+    background-image: url("../img/card-bg.jpeg");
     background-size: cover;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
