@@ -109,6 +109,10 @@ iframe {
     border: 0
 }
 
+.navbar {
+    align-items: start;
+}
+
 a,
 a:focus,
 a:hover {
@@ -1945,7 +1949,7 @@ body {
 }
 
 .default-header {
-    padding: 25px;
+    padding: 10px;
     position: absolute;
     top: 0;
     left: 0;
@@ -1969,7 +1973,6 @@ body {
 }
 
 nav {
-    margin-right: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -1980,13 +1983,16 @@ nav {
 @media (max-width: 767px) {
     nav {
         margin-right: 0;
-        position: absolute;
         right: 0;
-        top: 47px;
         text-align: center;
         padding: 20px 0;
         z-index: 5;
         background: #fff
+    }
+
+    .navbar-toggler {
+        font-size: 2em;
+        padding: 0px;
     }
 }
 
@@ -2180,7 +2186,7 @@ background: #F5EDE1;
     #landing .leaf {
         visibility: hidden;
     }
-    .logo {
+    .navbar-brand img {
         max-height: 75px;
     }
 
@@ -2195,10 +2201,6 @@ background: #F5EDE1;
 
     .footer-social {
         justify-content: space-around;  
-    }
-    
-    nav {
-        visibility: hidden;
     }
 
     #cardapp .projectcard {
