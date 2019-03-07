@@ -2134,14 +2134,6 @@ nav a:hover {
     opacity: 1
 }
 
-.vine-bg {
-    background-image: url("https://image.ibb.co/b6fk4e/IMG_0133.jpg");
-    background-size: cover;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    color: #333 !important;
-}
-
 .card-bg {
     background-image: url("https://images.unsplash.com/photo-1521517407911-565264e7d82d?ixlib=rb-0.3.5&s=280fb821540117a72fca4d2191948fa2&auto=format&fit=crop&w=1349&q=80");
     background-size: cover;
@@ -3026,7 +3018,7 @@ footer .footer-nav li a:hover {
     opacity: 0;
 }
 
-.me {
+.me img {
     height: 50vh;
     box-shadow: -10px 10px 0px #F56060;
 }
