@@ -2376,10 +2376,6 @@ nav a:hover {
     }
 }
 
-.carousel-trigger .next-trigger {
-    margin-bottom: 10px
-}
-
 .carousel-trigger .next-trigger,
 .carousel-trigger .prev-trigger {
     width: 40px;
@@ -2654,10 +2650,9 @@ nav a:hover {
     color: #fff
 }
 
-.service-area .prev-trigger {
-    position: absolute;
+.prev-trigger {
+    position: relative;
     top: 50%;
-    transform: translateY(-50%);
     left: -40px
 }
 
@@ -2675,10 +2670,9 @@ nav a:hover {
     }
 }
 
-.service-area .next-trigger {
-    position: absolute;
+.next-trigger {
+    position: relative;
     top: 50%;
-    transform: translateY(-50%);
     right: -40px
 }
 
