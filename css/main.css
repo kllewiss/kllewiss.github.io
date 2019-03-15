@@ -238,6 +238,14 @@ th {
     padding: 5px;
     font-size: 18px !important;
 }
+
+.highlight-share {
+    background: #00b4bc;
+    color: #fff;
+    padding: 5px;
+    font-size: 18px !important;
+}
+
 #project-page h5 {
     font-weight: 700;
     margin-bottom: 20px;
@@ -2164,6 +2172,18 @@ nav a:hover {
 
 .card-bg {
     background-image: url("../img/card-bg.jpeg");
+    background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    color: #333 !important;
+}
+
+.sharity h5 {
+    color: #ff8091 !important;
+}
+
+.sharity-bg {
+    background-image: url("../img/sharity-thumb.jpg");
     background-size: cover;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
