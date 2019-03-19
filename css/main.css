@@ -2184,7 +2184,7 @@ nav a:hover {
 
 .sharity-bg {
     background-image: url("../img/sharity-thumb.jpg");
-    background-size: cover;
+    background-size: contain;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     color: #333 !important;
