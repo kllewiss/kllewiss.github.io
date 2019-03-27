@@ -59,13 +59,13 @@
     max-width: 700px;
     line-height: 1.5rem !important;
     font-weight: 300;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 #landing h2 {
     font-size: 3rem;
-    line-height: 2.5rem;
-     !important;
+    letter-spacing: 2px;
+    line-height: 3.2rem !important;
 }
 
 html,
@@ -2449,7 +2449,7 @@ nav a:hover {
 }
 
 .projectcard h5 {
-    font-size: .8rem;
+    font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -2469,7 +2469,7 @@ nav a:hover {
 
 .projectcard p {
     color: #333;
-    font-size: .85em;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 15px
 }
@@ -2834,7 +2834,7 @@ hr {
 
 #contact p {
     font-family: "Nunito Sans", sans-serif;
-    font-size: .8rem !important;
+    font-size: 1rem !important;
     font-weight: 300;
     color: #fff;
 }
