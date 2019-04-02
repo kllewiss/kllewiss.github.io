@@ -2318,6 +2318,7 @@ nav a:hover {
 }
 
 @media (max-width: 991px) {
+    
     .banner-content h1 br {
         display: none
     }
@@ -2758,6 +2759,10 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
+    .justify-content-end, .justify-content-start {
+        justify-content: center !important;
+    }
+    
     .subscription-area {
         padding-bottom: 140px
     }
