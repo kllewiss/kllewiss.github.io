@@ -48,7 +48,7 @@ html {
 }
 
 
-#landing {
+.ninesix {
     height: 96vh !important;
     color: #333 !important;
 }
@@ -2182,8 +2182,23 @@ nav a:hover {
     color: #333 !important;
 }
 
+.sharity .process-area {
+    background: #00b4bc;
+}
+
 .sharity h5 {
     color: #ff8091 !important;
+}
+
+.sharity .text-section a {
+    color: #ff8091;
+    border-bottom: solid 3px transparent;
+    transition: 200ms ease-in-out;
+}
+
+.sharity .text-section a:hover {
+    border-bottom: solid 3px #00b4bc;
+    color: #00b4bc
 }
 
 .sharity-bg {
@@ -2192,6 +2207,10 @@ nav a:hover {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     color: #333 !important;
+}
+
+.project-logo {
+    max-width: 300px;
 }
 
 .process-area {
@@ -2545,6 +2564,7 @@ nav a:hover {
 }
 
 @media (max-width: 767px) {
+
     .core2-right h2 {
         font-size: 20px
     }
@@ -3009,6 +3029,12 @@ footer .footer-nav li a:hover {
 
 .footer-social a:hover i {
     color: #fff
+}
+
+#resume {
+    margin: 0 auto;
+    justify-content: center;
+    min-height: 800px !important;
 }
 
 .about-generic-area .border-top-generic {
