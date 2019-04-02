@@ -2478,6 +2478,11 @@ nav a:hover {
     margin-bottom: 15px
 }
 
+
+.projectcard img {
+    width: 100%;
+}
+
 .projectcard {
     background: #fff;
     padding: 30px;
