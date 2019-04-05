@@ -232,6 +232,49 @@ th {
 
 }
 
+/*Learning*/
+.box {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .box:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #333;
+    font-size: px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/*Learning*/
+
+
+.box img {
+    object-fit: cover;
+    width: auto;
+    height: 70vh !important;
+}
+
 #project-page p {
     font-size: 16px !important;
     line-height: 24px !important;
@@ -2260,10 +2303,6 @@ nav a:hover {
         max-height: 75px;
     }
 
-    .project {
-        height: 100vh !important;
-    }
-
     .default-header {
         position: relative;
         padding: 10px;
@@ -2496,17 +2535,6 @@ nav a:hover {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 15px
-}
-
-
-.projectcard img {
-    width: 100%;
-}
-
-.projectcard {
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
 }
 
 #cardapp {
