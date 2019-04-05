@@ -3060,9 +3060,16 @@ footer .footer-nav li a:hover {
 }
 
 #resume {
-    margin: 0 auto;
-    justify-content: center;
-    min-height: 800px !important;
+    margin: auto 50px;
+    min-height: 100%;
+}
+
+#resume h5 {
+    border-bottom: solid 5px #547A5D;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    font-weight: 600;
 }
 
 .about-generic-area .border-top-generic {
