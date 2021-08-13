@@ -277,7 +277,6 @@ li {
   bottom: 0%;
   display: block;
   overflow: visible;
-  width: 50vw;
   max-width: none;
   margin-right: auto;
   margin-left: auto;
@@ -293,6 +292,7 @@ li {
   color: #f9f9f9;
   -o-object-fit: fill;
   object-fit: fill;
+
 }
 
 .image-2 {
